@@ -9,7 +9,7 @@
 	<artifactId>ontimize-more-plaf-styles-black</artifactId>
 	<name>ontimize-more-plaf-styles-black</name>
 	
-		<profiles>
+	<profiles>
 		<profile>
 			<id>generate_version</id>
 			<build>
