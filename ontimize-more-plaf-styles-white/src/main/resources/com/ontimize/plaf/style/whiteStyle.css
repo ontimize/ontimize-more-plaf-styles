@@ -10,7 +10,7 @@ Button{
 /*	 font:;*/
 /*	 background:;*/
 	textForeground:#335971;
-	[Disabled].textForeground:#8F9CA4;
+	[Disabled].textForeground:#243b4aCC;
 
 	[Default].alphaTransparency:0.5;
 	[Default+Focused].alphaTransparency:0.5;
@@ -45,7 +45,7 @@ CheckBox{
 /*		[Disabled+Selected].icon:;*/
 /*		contentMargins:;*/
 		[Enabled].textForeground:#6387A0;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC;
         [Focused].textForeground:#6387A0;
         [Selected].textForeground:#6387A0;
 }
@@ -107,7 +107,7 @@ CollapsiblePanel{
 
 ComboBox{
         [Enabled].textForeground:#335971;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC;
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
         
@@ -130,7 +130,7 @@ ComboBox:"ComboBox.textField"{
         [Selected].background:#FFFFFF;
         
         [Enabled].textForeground:#335971;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC;
         [Selected].textForeground:#FFFFFF;
 }
 
@@ -178,7 +178,7 @@ EditorPane{
 "FieldButton"{
 /*		font:;*/
 		textForeground:#335971;
-		[Disabled].textForeground:#8F9CA4;
+		[Disabled].textForeground:#243b4aCC;
 		
 		[Focused].background:#366581;
 		[Focused].alphaTransparency:0.5;
@@ -196,7 +196,7 @@ FileChooser{
 "FormButton"{
 /*		font:;*/
 		textForeground:#335971;
-		[Disabled].textForeground:#8F9CA4;
+		[Disabled].textForeground:#243b4aCC;
 		
 		[Focused].background:#366581;
 		[Focused].alphaTransparency:0.5;
@@ -211,7 +211,7 @@ FileChooser{
 "FormHeaderButton"{
 /*		font:;*/
 		textForeground:#335971;
-		[Disabled].textForeground:#8F9CA4;
+		[Disabled].textForeground:#243b4aCC;
 		
 		[Focused].background:#366581;
 		[Focused].alphaTransparency:0.5;
@@ -237,7 +237,7 @@ Label{
 		disabledText:#6387A0;
 		
 		[Enabled].textForeground:#6387A0;
-		[Disabled].textForeground:#8F9CA4;
+		[Disabled].textForeground:#243b4aCC;
 		[Focused].textForeground: "#61BEE8";
 		[Selected].textForeground": "#FFFFFF";
 }
@@ -345,7 +345,7 @@ RadioButton{
 /*		[Disabled+Selected].icon:;*/
 /*		contentMargins:;*/
 		[Enabled].textForeground:#6387A0;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC;
         [Focused].textForeground:#6387A0;
         [Selected].textForeground:#6387A0;
 }
@@ -541,7 +541,7 @@ Table:"VisualCalendar:Table.cellRenderer"{
 		contentMargins: 16 16 16 16;
 /*		font:;*/
 		textForeground:#335971;
-		[Disabled].textForeground:#8F9CA4;
+		[Disabled].textForeground:#243b4aCC;
 		
 		[Focused].background:#366581;
 		[Focused].alphaTransparency:0.5;
@@ -592,9 +592,10 @@ TextArea{
     
 TextField{
         [Enabled].textForeground:#335971;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC; /*old value  8F9CA4*/
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
+        [Required].textForeground:#FFFFFF;
         
         [Enabled].background:#FFFFFF;
         [Disabled].background:#C4CED46D;
@@ -610,7 +611,7 @@ TextField{
 
 Table:"Table.QuickFilter"{
         [Enabled].textForeground:#335971;
-        [Disabled].textForeground:#8F9CA4;
+        [Disabled].textForeground:#243b4aCC;
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
         
@@ -637,7 +638,7 @@ ToggleButton{
 /*	 font:;*/
 /*	 background:;*/
 	textForeground:#335971;
-	[Disabled].textForeground:#8F9CA4;
+	[Disabled].textForeground:#243b4aCC;
 
 	[Selected].alphaTransparency:0.3;
 	[Disabled+Selected].alphaTransparency:0.5;
