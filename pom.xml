@@ -8,9 +8,9 @@
   	<artifactId>ontimize-master</artifactId>
   	<version>1.0.1</version>
   </parent>
-  <properties>
-      
-  </properties>
+  	<properties>
+		<ontimize-plaf-version-number>1.0.6</ontimize-plaf-version-number>
+    </properties>
   <dependencyManagement>
       <dependencies>
       </dependencies>

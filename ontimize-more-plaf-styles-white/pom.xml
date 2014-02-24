@@ -8,7 +8,7 @@
 	</parent>
 	<artifactId>ontimize-more-plaf-styles-white</artifactId>
 	<name>ontimize-more-plaf-styles-white</name>
-
+	
 	<profiles>
 		<profile>
 			<id>generate_version</id>
@@ -27,7 +27,7 @@
 								</manifest>
 								<manifestEntries>
 									<Built-By>${project.organization.name}</Built-By>
-									<Ontimize-plaf-version-number>${ontimize-more-plaf.version}</Ontimize-plaf-version-number>
+									<Ontimize-plaf-version-number>${ontimize-plaf-version-number}</Ontimize-plaf-version-number>
 									<Version-number>${project.parent.version}</Version-number>
 									<Version-date>${maven.build.timestamp}</Version-date>
 									<Component-name>${project.artifactId}</Component-name>
