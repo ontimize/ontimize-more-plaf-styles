@@ -174,8 +174,12 @@ Label{
 "FieldButton"{
 		textForeground:#FFFFFF;
 		[Disabled].textForeground:#637a88;		
-		[Focused].background:#000000;
-		[Focused].alphaTransparency:0.5;
+	[Focused].background : #000000;
+	[Focused].alphaTransparency : 0.25;
+	[MouseOver].background : #000000;
+	[MouseOver].alphaTransparency : 0.25;
+	[Focused+MouseOver].background : #000000;
+	[Focused+MouseOver].alphaTransparency : 0.25;
 	
 }
 
@@ -189,8 +193,12 @@ Label{
 		textForeground:#FFFFFF;
 		[Disabled].textForeground:#637a88;
 		
-		[Focused].background:#000000;
-		[Focused].alphaTransparency:0.5;
+	[Focused].background : #ffffff;
+	[Focused].alphaTransparency : 0.5;
+	[MouseOver].background : #ffffff;
+	[MouseOver].alphaTransparency : 0.5;
+	[Focused+MouseOver].background : #ffffff;
+	[Focused+MouseOver].alphaTransparency : 0.5;
 	
 }
 
@@ -203,8 +211,12 @@ Label{
 		textForeground:#FFFFFF;
 		[Disabled].textForeground:#637a88;
 		
-		[Focused].background:#000000;
-		[Focused].alphaTransparency:0.5;
+	[Focused].background : #ffffff;
+	[Focused].alphaTransparency : 0.5;
+	[MouseOver].background : #ffffff;
+	[MouseOver].alphaTransparency : 0.5;
+	[Focused+MouseOver].background : #ffffff;
+	[Focused+MouseOver].alphaTransparency : 0.5;
 }
 
 "FormTitle"{
@@ -280,6 +292,20 @@ Menu{
 		[Enabled].arrowBackground:#FFFFFF7D;
 		[Disabled].arrowBackground:#0000007D;
 		[Enabled+Selected].arrowBackground:#0000004C;
+}
+
+"ButtonSelection"{
+	[Focused].background : #ffffff;
+	[Focused].alphaTransparency : 0.5;
+}
+
+"MenuButtonSelection"{
+	[Focused].background : #ffffff;
+	[Focused].alphaTransparency : 0.5;
+	[MouseOver].background : #ffffff;
+	[MouseOver].alphaTransparency : 0.5;
+	[Focused+MouseOver].background : #ffffff;
+	[Focused+MouseOver].alphaTransparency : 0.5;
 }
 
 OptionPane{
@@ -465,6 +491,63 @@ TabbedPane:TabbedPaneTab{
 }
 
 TabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
+		contentMargins:1 1 1 1;
+		[Enabled].foreground: #BDBDBD;
+		[Disabled].foreground: #D0DAE2;
+		[Pressed].foreground: #9D9D9D;
+		[MouseOver].foreground: #FFFFFF;
+}
+
+
+FormTabbedPane{
+		background:#9B9B9B;
+		[Enabled].border:#000000;
+		[Disabled].border:#000000;
+}
+
+FormTabbedPane:TabbedPaneContent{
+		contentMargins: 1 1 1 1;
+		[Enabled].background:#FAFAFA;
+		[Disabled].background:#517286;
+}
+
+FormTabbedPane:TabbedPaneTab{
+		contentMargins:1 1 1 1;		
+		[Enabled].textForeground:#000000;
+		[Disabled].textForeground:#263945;
+		[Selected].textForeground:#FFFFFF;
+		[Focused].textForeground:#FFFFFF;
+		[Enabled].background:#FAFAFA;
+		
+		[Enabled+Pressed].background:#505050;
+		[Disabled].background:#d7d7d7;
+		[Disabled+Selected].background:#505050;
+		[Selected].background:#505050;
+		font:Verdana-BOLD-11;
+		[MouseOver+Selected].background:#505050;
+		[Pressed+Selected].background:#505050;
+		[Focused+Selected].background:#505050;
+		[Focused+MouseOver+Selected].background:#505050;
+		[Focused+Pressed+Selected].background:#505050;	
+		[Enabled+MouseOver].background:#505050;
+}
+
+FormTabbedPane:TabbedPaneTab:"TabbedPaneTab.label"{
+	foreground : #000000;
+	textForeground : #000000;
+	[Enabled].textForeground : #000000;
+	[Disabled].textForeground : #263945;
+	[Selected].textForeground : #FFFFFF;
+	[Focused].textForeground : #FFFFFF;
+}
+
+FormTabbedPane:TabbedPaneTabArea{
+	contentMargins: 0 0 0 0;
+	[Enabled].background:#FAFAFA22;
+	[Disabled].background:#51728633;
+}
+
+FormTabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
 		contentMargins:1 1 1 1;
 		[Enabled].foreground: #BDBDBD;
 		[Disabled].foreground: #D0DAE2;
@@ -703,7 +786,15 @@ ToolBar:Button{
 ToolBarSeparator{
 	   [Enabled].background:#FFFFFF4C;
 	   contentMargins:0 0 0 0;
-	   
+}
+
+"ToolbarNavigatorMenuButtonSelection"{
+	[Focused].background : #ffffff;
+	[Focused].alphaTransparency : 0.5;
+	[MouseOver].background : #ffffff;
+	[MouseOver].alphaTransparency : 0.5;
+	[Focused+MouseOver].background : #ffffff;
+	[Focused+MouseOver].alphaTransparency : 0.5;
 }
 
 ToolTip{
@@ -723,12 +814,14 @@ Tree{
 		collapsedIcon: com/ontimize/plaf/images/11x11_tree_close.png;	
 }
 
-"Tree.cellRenderer"{
+Tree:"Tree.cellRenderer"{
 		font:Verdana-BOLD-11;
 		textForeground: #FFFFFF;
+		rootForeground: #333333; 
+		rootSelectionForeground: #517286;  
 		background: #888888;
 		backgroundSelectionParent: #c0c2c3;
-		backgroundSelection: #517286;
+		backgroundSelection: #090707cc;
 		topBackgroundSelection: #50505086;
 		bottomBackgroundSelection: #50505086;
 		backgroundChildCount: #dddddd;

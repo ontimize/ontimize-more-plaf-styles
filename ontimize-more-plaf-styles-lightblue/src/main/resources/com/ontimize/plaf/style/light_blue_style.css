@@ -46,7 +46,7 @@ Application{
 	radius: 5.7;
 }
 
-/* READY */
+
 Button {
 	contentMargins:5 5 5 5 ;
 	background:#C6E0F5;
@@ -101,7 +101,7 @@ CheckBoxMenuItem{
 	[MouseOver+Selected].background:#FFFFFF; /* WHITE */
 }
 
-/* READY */
+
 CollapsiblePanel{	  
 	foreground:#FFFFFF; /* WHITE */
 	foregroundShadow:#539DC4; /* BLUE MIDDARK */
@@ -112,21 +112,21 @@ CollapsiblePanel{
 	
 }
 
-/* READY */
+
 "Column"{		
 	background:#E7E9EE80;  /* BLUE LIGHT + DD transp*/
 	contentMargins:2 0 2 0;
 	
 }
 
-/* READY */
+
 "Row"{
 	background:#E7E9EE80;  /* BLUE LIGHT + DD transp*/
         contentMargins:2 0 2 0;        
 }
 
 
-/* READY */
+
 ComboBox{
 
 	font:Tahoma-PLAIN-11;
@@ -154,7 +154,7 @@ ComboBox{
 }
 
 
-/* READY */
+
 ComboBox:"ComboBox.textField"{
 	
 	font:Tahoma-PLAIN-11;
@@ -170,7 +170,7 @@ ComboBox:"ComboBox.textField"{
         
 }
 
-/* READY */
+
 ComboBox:"ComboBox.arrowButton"{
 
 	[Enabled].foreground:#FFFFFF; /* WHITE */
@@ -240,8 +240,12 @@ Label{
 /*		font:;*/
 	textForeground:#304550; /* BLUE DARKEST */
 	[Disabled].textForeground:#539DC4; /* BLUE MIDDARK */		
-	[Focused].background:#304550; /* BLUE DARK */
-	[Focused].alphaTransparency:0.5;
+	[Focused].background : #304550;
+	[Focused].alphaTransparency : 0.25;
+	[MouseOver].background : #304550;
+	[MouseOver].alphaTransparency : 0.25;
+	[Focused+MouseOver].background : #304550;
+	[Focused+MouseOver].alphaTransparency : 0.25;
 	
 }
 
@@ -448,7 +452,7 @@ RadioButtonMenuItem{
 }
 
 
-/* READY */
+
 ScrollBar{
 
 	contentMargins:6 6 6 6;	
@@ -457,7 +461,7 @@ ScrollBar{
 	[Disabled].border:#EEF0F5 ; /* BLUE LIGHT  */
 }
 
-/* READY */
+
 ScrollBar:"ScrollBar.button"{
 
 	size:25;
@@ -475,7 +479,7 @@ ScrollBar:"ScrollBar.button"{
 	[Pressed].arrowBackground:#FFFFFF; /* WHITE */
 }
 
-/* READY */
+
 ScrollBar:ScrollBarThumb{
 
 	[Enabled].background:#539DC4;  /* BLUE MIDDARK */
@@ -491,13 +495,13 @@ ScrollBar:ScrollBarThumb{
 	[Pressed].border:#539DC4; /* BLUE MIDDARK */
 }
 
-/* READY */
+
 ScrollBar:ScrollBarTrack{
 	[Enabled].background:#E6E6E6; /* GREY LIGHT */
 	[Disabled].background:#EEF0F5 ; /* BLUE LIGHT */	
 }
 
-/* READY */
+
 ScrollPane {
 	opaque:false;
 }
@@ -533,7 +537,7 @@ SplitPane:SplitPaneDivider{
 
 	
 
-/* READY */
+
 TabbedPane{
 	contentMargins: 5 10 5 10;
 	opaque:false;
@@ -542,14 +546,14 @@ TabbedPane{
 	[Disabled].border:#000000; /* BLACK*/
 }
 
-/* READY */
+
 TabbedPane:TabbedPaneContent{
 	contentMargins: 4 2 2 2;
 	[Enabled].background:#F5F5F5; /* GREY ALMOST WHITE */
 	[Disabled].background:#1575A7; /* BLUE DARK */
 }
 
-/* READY */
+
 TabbedPane:TabbedPaneTab{
 
 	contentMargins:2 2 2 2;		
@@ -576,7 +580,7 @@ TabbedPane:TabbedPaneTab{
 	[Focused+Pressed+Selected].background:#539DC4; /* BLUE MIDDARK */	
 }
 
-/* READY */
+
 TabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
 	contentMargins:1 1 1 1;
 	[Enabled].foreground: #BDBDBD; /* GREY MIDLIGHT */
@@ -586,7 +590,68 @@ TabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
 }
 
 
-/* READY */
+FormTabbedPane{
+	background:#A0A0A0; /* GREY MID */
+	[Enabled].border:#805000; /* ORANGE BLACKER*/
+	[Disabled].border:#000000; /* BLACK*/
+}
+
+FormTabbedPane:TabbedPaneContent{
+	contentMargins:1 1 1 1;
+	[Enabled].background:#F5F5F5; /* GREY ALMOST WHITE */
+	[Disabled].background:#1575A7; /* BLUE DARK */
+}
+
+FormTabbedPane:TabbedPaneTab{
+	contentMargins:1 1 1 1;		
+	font:Tahoma-BOLD-11;
+
+	/* text foreground */
+	[Enabled].textForeground:#000000; /* BLACK */
+	[Enabled].background:#F5F5F5; /* GREY ALMOST WHITE */
+	[Enabled+Pressed].background:#F0B70A; /* ORANGE DARK */
+	[Enabled+MouseOver].background:#539DC4; /* BLUE MIDDARK */
+
+	[Disabled].textForeground:#304550; /* BLUE DARKEST */
+	[Disabled].background:#E6E6E6; /* GREY LIGHT */
+	[Disabled+Selected].background:#539DC4; /* BLUE MIDDARK */
+
+	[Selected].textForeground:#000000; /* BLACK */
+	[Selected].background:#C6E0F5; /* BLUE MIDLIGHT*/
+	[MouseOver+Selected].background:#539DC4; /* BLUE MIDDARK */
+	[Pressed+Selected].background:#539DC4; /* BLUE MIDDARK */
+
+	[Focused].textForeground:#FFFFFF; /* WHITE */
+	[Focused+Selected].background:#539DC4; /* BLUE MIDDARK */
+	[Focused+MouseOver+Selected].background:#539DC4; /* BLUE MIDDARK */ 
+	[Focused+Pressed+Selected].background:#539DC4; /* BLUE MIDDARK */	
+}
+
+FormTabbedPane:TabbedPaneTab:"TabbedPaneTab.label"{
+	foreground : #000000;
+	textForeground : #000000;
+	[Enabled].textForeground : #000000;
+	[Disabled].textForeground : #304550;
+	[Selected].textForeground : #000000;
+	[Focused].textForeground : #FFFFFF;
+}
+
+FormTabbedPane:TabbedPaneTabArea{
+	contentMargins: 0 0 0 0;
+	[Enabled].background:#F5F5F522;
+	[Disabled].background:#1575A733;
+}
+
+FormTabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
+	contentMargins:1 1 1 1;
+	[Enabled].foreground: #BDBDBD; /* GREY MIDLIGHT */
+	[Disabled].foreground: #E7E9EE; /* BLUE ALMOST-LIGHT */
+	[Pressed].foreground: #A0A0A0; /* GREY MID */
+	[MouseOver].foreground: #FFFFFF; /* WHITE */
+}
+
+
+
 Table{
 	foreground:#304550;
 	textForeground:#304550;
@@ -612,7 +677,7 @@ Table:"Table.cellEditor"{
 }
     
     
-/* READY */
+
 Table:"Table.cellRenderer"{
 
 	foreground:#304550; /* BLUE DARKEST */
@@ -630,7 +695,7 @@ Table:"Table.cellRenderer"{
         
 }
         
-/* READY */
+
 Table:"Table.rowHeadCellRenderer"{
 	font:Tahoma-PLAIN-11;
 	foreground:#304550; /* BLUE DARKEST */
@@ -688,7 +753,7 @@ TableHeader{
 
 }
 
-/* READY */
+
 TableHeader:"TableHeader.renderer"{
 	contentMargins:2 5 2 5;
 	opaque:false;
@@ -703,7 +768,7 @@ TableHeader:"TableHeader.renderer"{
 	
 }
 
-/* READY */
+
 TableHeader:"VisualCalendar:TableHeader.renderer"{
 	[Enabled].textForeground:#FFFFFF; /* WHITE */
 	foregroundShadow:#00000033; /* BLACK */	
@@ -733,7 +798,7 @@ TextArea{
     
 
     
-/* READY */
+
 TextField{
 	font:Tahoma-PLAIN-11;
 		
@@ -834,21 +899,11 @@ Tree{
 	collapsedIcon: com/ontimize/plaf/images/11x11_tree_close.png;	
 }
 
-"Tree.cellRenderer"{
-/*
-		textForeground: #517286;
-		background: #E4EDF0;
-		backgroundSelectionParent: #ABC7D8;
-		backgroundSelection: #517286;
-		topBackgroundSelection: #638092;
-		bottomBackgroundSelection: #496678;
-		backgroundChildCount: #36627F;
-		foregroundChildCount: #E4EDF0;
-		backgroundSelectionCount: #E4EDF0;
-		foregroundSelectionChildCount: #517286;
-*/
+Tree:"Tree.cellRenderer"{
 
 	textForeground: #1575A7; /* BLUE DARK */
+	rootForeground: #1575A7; /* BLUE DARK */
+	rootSelectionForeground: #539DC4;  /* BLUE MIDDARK */
 	background: #EEF0F5; /* BLUE LIGHT */
 	
 	backgroundSelectionParent: #E7E9EE; /* BLUE ALMOST-LIGHT */

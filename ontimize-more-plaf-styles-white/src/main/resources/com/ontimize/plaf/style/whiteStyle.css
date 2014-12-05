@@ -175,13 +175,24 @@ EditorPane{
 		disabledText:#6387A0;
 }
 
+"ResultCountLabel"{
+		foreground:#6387A0;
+		[Enabled].textForeground:#6387A0;
+		[Disabled].textForeground:#6387A0;
+		disabledText:#6387A0;
+}
+
 "FieldButton"{
 /*		font:;*/
 		textForeground:#335971;
 		[Disabled].textForeground:#243b4aCC;
 		
-		[Focused].background:#366581;
-		[Focused].alphaTransparency:0.5;
+	[Focused].background : #366581;
+	[Focused].alphaTransparency : 0.25;
+	[MouseOver].background : #366581;
+	[MouseOver].alphaTransparency : 0.25;
+	[Focused+MouseOver].background : #366581;
+	[Focused+MouseOver].alphaTransparency : 0.25;
 	
 }
 
@@ -720,9 +731,10 @@ Tree{
 		collapsedIcon: com/ontimize/plaf/images/11x11_tree_close.png;	
 }
 
-"Tree.cellRenderer"{
-/*		font:;*/
+Tree:"Tree.cellRenderer"{
 		textForeground: #517286;
+		rootForeground: #4AAEE3;
+		rootSelectionForeground: #396F8A;
 		background: #E4EDF0;
 		backgroundSelectionParent: #ABC7D8;
 		backgroundSelection: #517286;
