@@ -585,7 +585,7 @@ FormTabbedPane:TabbedPaneTab{
 	[Focused+Pressed+Selected].background:#c49153; /* BLUE MIDDARK */	
 }
 
-FormTabbedPane:TabbedPaneTab:"TabbedPaneTab.label"{
+"FormTabbedPaneTab.Label"{
 	foreground : #000000;
 	textForeground : #000000;
 	[Enabled].textForeground : #000000;
