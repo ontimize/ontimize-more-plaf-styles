@@ -373,6 +373,135 @@ Panel{
 	background:#EEF0F5; /* BLUE LIGHT */
 }
 
+Planning:TaskView{
+/* 		taskViewPath: com/ontimize/multiidioma/plaf/newTaskViewForPlanning.html; */
+}
+
+Planning:LCalendar{
+/* 		componentBackground: #FFFFFF; */
+/* 		monthBorderColor: #000000;  */
+ 		monthHeaderBackground: #366581; 
+		monthHeaderForeground: #FFFFFF; 
+/* 		monthWeekBackground: #FFFFFF;  */
+/* 		monthWeekForeground: #000000;  */
+/* 		monthOddDaysBackground: #F3F3F0; */
+/* 		monthEvenDaysBackground: #FFFFFF; */
+/* 		monthDayBackgroundSelected: #5CB1EA; */
+/* 		monthDaysForeground: #000000;  */
+/* 		monthDaysAccomplisehdAppointments: #FF0000; */
+/* 		monthDaysPendingAppointments: #00FF00;  */
+}
+
+Planning:DayPlanningComponent{
+/*  	ownersBarWidth: 50; 50 */
+/* 		schedulerpanelBgcolor: #FFFFFF; */
+		scrollPanelBgcolor: #EEF0F5;
+		defaultSlotBackgroundColor: #ABC7D8; 
+/* 		defaultSlotBackgroundselectedColor: #E4EDF0; */
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000;  */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0; */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultUnschedulableSlotColor: #FF0000; */
+/* 		schedulerpanelLastlineColor: #000000;  */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f; */
+/* 		schedulerpanelLinesColor: #C0C0C0; */
+/* 		schedulerpanelLinesStrokeWidth: 1.0f; */
+/* 		schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/* 		schedulerpanelVerticallinesColor: #000000; */
+/* 		schedulerpanelVerticallinesStroke: 1.0f; */
+		ownersbarNamesBackgroundColor: #366581;
+		ownersbarNamesFontColor: #FFFFFF;
+/* 		ownersbarNamesFontStyle: 1; */
+/* 		ownersbarNamesFontSize: 11.0f; */
+		ownersbarHoursBorderColor: #CBE3F5;
+		ownersbarHoursBackgroundColor: #366581;
+		ownersbarHoursFontColor: #FFFFFF;
+/* 		ownersbarHoursFontStyle: 1; */
+/* 		ownersbarHoursFontSize: 11.0f; */
+/* 		slotHeaderFontname: Tahoma; */
+/* 		slotHeaderFontcolor: #000000; */
+/* 		slotHeaderFontsize: 9;		 */
+}
+
+Planning:WeekPlanningComponent{
+/* 		ownersBarWidth: 60; */
+/* 		schedulerpanelBgcolor: #FFFFFF; */
+		scrollPanelBgcolor: #EEF0F5;		
+		defaultSlotBackgroundColor: #ABC7D8; 
+/* 		defaultSlotBackgroundselectedColor: #E4EDF0; */
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000; */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0;  */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultUnschedulableSlotColor: #FF0000;  */
+/* 		schedulerpanelLastlineColor: #000000; */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f;  */
+/* 		schedulerpanelLinesColor: #C0C0C0;  */
+/* 		schedulerpanelLinesStrokeWidth: 1.0f; */
+/* 		schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/* 		schedulerpanelVerticallinesColor: #000000; */
+/* 		schedulerpanelVerticallinesStroke: 1.0f; */
+		weekdaysbarBackgroundColor: #366581;
+		weekdaysbarBorderColor:#CBE3F5;
+		weekdaysbarFontColor: #FFFFFF;
+/* 		weekdaysbarFontStyle: 1; */
+/* 		weekdaysbarFontSize: 12.0f; */
+		ownersbarNamesBackgroundColor: #366581; 
+		ownersbarNamesFontColor: #FFFFFF;
+/* 		ownersbarNamesFontStyle: 1; */
+/* 		ownersbarNamesFontSize: 11.0f; */
+/* 		ownersbarHoursBackgroundColor: #366581; */
+/* 		ownersbarHoursFontColor: #000000; */
+/* 		ownersbarHoursFontStyle: 1; */
+/* 		ownersbarHoursFontSize: 9.0f; */
+/* 		ownersbarHoursLinesColor: #404040; */
+/* 		ownersbarHoursLinesStrokeWidth: 1.0f; */
+/* 		ownersbarHoursMiddlelineColor: #FF0000; */
+/* 		ownersbarHoursLastlineColor: #000000; */
+/* 		ownersbarHoursLastlineStrokeWidth: 1.0f; */
+/* 		slotHeaderFontname: Tahoma; */
+/* 		slotHeaderFontcolor: #000000; */
+/* 		slotHeaderFontsize: 9;	 */
+}
+
+Planning:MonthPlanningComponent{
+/* 		ownersBarWidth: 80; */
+/* 		schedulerpanelBgcolor: #FFFFFF;   */
+		defaultSlotBackgroundColor: #ABC7D8;  
+/* 		defaultSlotBackgroundselectedColor: #E4EDF0; */
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000; */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0;  */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultMarkerSlotColor: #0000FF;  */
+/* 		defaultMarkerSlotBorderColor: #00FF00; */
+/* 		defaultUnschedulableSlotColor: #FF0000;  */
+/* 		schedulerpanelLastlineColor: #000000; */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f;  */
+/*  	schedulerpanelLinesColor: #C0C0C0;   */
+/*  	schedulerpanelLinesStrokeWidth: 1.0f; */
+/*  	schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/*  	schedulerpanelVerticallinesColor: #000000; */
+/*  	schedulerpanelVerticallinesStroke: 1.0f; */
+		weekdaysbarBackgroundColor: #366581; 
+		weekdaysbarBorderColor:#CBE3F5;
+		weekdaysbarFontColor: #FFFFFF;
+/* 		weekdaysbarFontStyle: 1; */
+/*  	weekdaysbarFontSize: 9.0f; */
+/*  	minimunWeekdaysbarWidth: 100; */
+		ownersbarNamesBackgroundColor: #366581;
+ 		ownersbarNamesFontColor: #FFFFFF;
+/*  	ownersbarNamesFontStyle: 1; */
+/*  	ownersbarNamesFontSize: 11.0f; */
+/*  	slotHeaderFontname: Tahoma; */
+/*  	slotHeaderFontcolor: #000000; */
+/*  	slotHeaderFontsize: 9; */
+}
+
 "PopupItem"{
 	[Enabled].textForeground:#FFFFFF; /* WHITE */
 	[Enabled].background:#FFFFFF01; /* WHITE */
@@ -792,6 +921,9 @@ TextArea{
 	
 	/*[Selected].textForeground:#FFFFFF; /* WHITE */
 	[Selected].textForeground:#000000; /* WHITE */
+	
+	[Required].textForeground:#203740; /* BLUE BLACK */
+	[Required].background:#FAE080; /* ORANGE COLD*/
 		
 }
     
@@ -812,7 +944,7 @@ TextField{
         
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */
-        [Focused].border:#EECC80FF #EECC80B3 #EECC8066 #EECC8019; /* ORANGE LIGHT */
+    [Focused].border:#EECC80FF #EECC80B3 #EECC8066 #EECC8019; /* ORANGE LIGHT */
 
 	/*[Focused].innerShadow:#CACACA;*/
 

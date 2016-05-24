@@ -318,6 +318,148 @@ Panel{
 		background:#ebf0f3;
 }
 
+Planning:TaskView{
+/* 		taskViewPath: com/ontimize/multiidioma/plaf/newTaskViewForPlanning.html; */
+}
+
+TextArea{
+		[Enabled].textForeground:#335971;
+		[Disabled].textForeground:#FFFFFF;
+		[Focused].textForeground:#FFFFFF;
+		[Selected].textForeground:#FFFFFF;
+		[Enabled].background:#FFFFFF;
+		[Disabled].background:#FFFFFF6D;
+		[Focused].background:#FFFFFF;
+		[Enabled].border:#E0EBF2;
+		[Disabled].border:#C4CED46D;
+		[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
+}
+
+Planning:LCalendar{
+/* 		componentBackground: #FFFFFF; */
+/* 		monthBorderColor: #000000;  */
+		monthHeaderBackground: #4D4D4D; 
+		monthHeaderForeground: #FFFFFF; 
+/* 		monthWeekBackground: #FFFFFF;  */
+/* 		monthWeekForeground: #000000;  */
+/* 		monthOddDaysBackground: #F3F3F0; */
+/* 		monthEvenDaysBackground: #FFFFFF; */
+/* 		monthDayBackgroundSelected: #5CB1EA; */
+/* 		monthDaysForeground: #000000;  */
+/* 		monthDaysAccomplisehdAppointments: #FF0000; */
+/* 		monthDaysPendingAppointments: #00FF00;  */
+}
+
+Planning:DayPlanningComponent{
+/*  	ownersBarWidth: 50; 50 */
+/* 		schedulerpanelBgcolor: #FFFFFF; */
+		scrollPanelBgcolor: #EBF0F3;
+		defaultSlotBackgroundColor: #888888; 
+		defaultSlotBackgroundselectedColor: #C0C2C3;
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000;  */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0; */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultUnschedulableSlotColor: #FF0000; */
+/* 		schedulerpanelLastlineColor: #000000;  */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f; */
+/* 		schedulerpanelLinesColor: #C0C0C0; */
+/* 		schedulerpanelLinesStrokeWidth: 1.0f; */
+/* 		schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/* 		schedulerpanelVerticallinesColor: #000000; */
+/* 		schedulerpanelVerticallinesStroke: 1.0f; */
+		ownersbarNamesBackgroundColor: #4D4D4D;
+		ownersbarNamesFontColor: #FFFFFF;
+/* 		ownersbarNamesFontStyle: 1; */
+/* 		ownersbarNamesFontSize: 11.0f; */
+		ownersbarHoursBorderColor: #FFFFFF;
+		ownersbarHoursBackgroundColor: #4D4D4D;
+		ownersbarHoursFontColor: #FFFFFF;
+/* 		ownersbarHoursFontStyle: 1; */
+/* 		ownersbarHoursFontSize: 11.0f; */
+/* 		slotHeaderFontname: Tahoma; */
+/* 		slotHeaderFontcolor: #000000; */
+/* 		slotHeaderFontsize: 9;		 */
+}
+
+Planning:WeekPlanningComponent{
+/* 		ownersBarWidth: 60; */
+/* 		schedulerpanelBgcolor: #FFFFFF; */
+		scrollPanelBgcolor: #EBF0F3;		
+		defaultSlotBackgroundColor: #888888; 
+		defaultSlotBackgroundselectedColor: #C0C2C3;
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000; */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0;  */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultUnschedulableSlotColor: #FF0000;  */
+/* 		schedulerpanelLastlineColor: #000000; */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f;  */
+/* 		schedulerpanelLinesColor: #C0C0C0;  */
+/* 		schedulerpanelLinesStrokeWidth: 1.0f; */
+/* 		schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/* 		schedulerpanelVerticallinesColor: #000000; */
+/* 		schedulerpanelVerticallinesStroke: 1.0f; */
+		weekdaysbarBackgroundColor: #4D4D4D;
+		weekdaysbarBorderColor:#FFFFFF;
+		weekdaysbarFontColor: #FFFFFF;
+/* 		weekdaysbarFontStyle: 1; */
+/* 		weekdaysbarFontSize: 12.0f; */
+		ownersbarNamesBackgroundColor: #4D4D4D; 
+		ownersbarNamesFontColor: #FFFFFF;
+/* 		ownersbarNamesFontStyle: 1; */
+/* 		ownersbarNamesFontSize: 11.0f; */
+		ownersbarHoursBackgroundColor: #C0C2C3;
+/* 		ownersbarHoursFontColor: #000000; */
+/* 		ownersbarHoursFontStyle: 1; */
+/* 		ownersbarHoursFontSize: 9.0f; */
+/* 		ownersbarHoursLinesColor: #404040; */
+/* 		ownersbarHoursLinesStrokeWidth: 1.0f; */
+/* 		ownersbarHoursMiddlelineColor: #FF0000; */
+/* 		ownersbarHoursLastlineColor: #000000; */
+/* 		ownersbarHoursLastlineStrokeWidth: 1.0f; */
+/* 		slotHeaderFontname: Tahoma; */
+/* 		slotHeaderFontcolor: #000000; */
+/* 		slotHeaderFontsize: 9;	 */
+}
+
+Planning:MonthPlanningComponent{
+/* 		ownersBarWidth: 80; */
+/* 		schedulerpanelBgcolor: #FFFFFF;   */
+		defaultSlotBackgroundColor: #888888;  
+		defaultSlotBackgroundselectedColor: #C0C2C3;
+/* 		defaultSlotBorderColor: #000000; */
+/* 		defaultSlotSelectedBorderColor: #FF0000; */
+/* 		defaultEmptySelectedSlotColor: #C0C0C0;  */
+/* 		defaultEmptySelectedSlotBorderColor: #000000; */
+/* 		defaultMarkerSlotColor: #0000FF;  */
+/* 		defaultMarkerSlotBorderColor: #00FF00; */
+/* 		defaultUnschedulableSlotColor: #FF0000;  */
+/* 		schedulerpanelLastlineColor: #000000; */
+/* 		schedulerpanelLastlineStrokeWidth: 1.0f;  */
+/*  	schedulerpanelLinesColor: #C0C0C0;   */
+/*  	schedulerpanelLinesStrokeWidth: 1.0f; */
+/*  	schedulerpanelMiddlelineColor: #FF0000; */
+/* 		schedulerpanelMiddlelineStrokeWidth: 1.0f; */
+/*  	schedulerpanelVerticallinesColor: #000000; */
+/*  	schedulerpanelVerticallinesStroke: 1.0f; */
+		weekdaysbarBackgroundColor: #4D4D4D;
+		weekdaysbarBorderColor:#FFFFFF; 
+		weekdaysbarFontColor: #FFFFFF;
+/* 		weekdaysbarFontStyle: 1; */
+/*  	weekdaysbarFontSize: 9.0f; */
+/*  	minimunWeekdaysbarWidth: 100; */
+		ownersbarNamesBackgroundColor: #4D4D4D;
+ 		ownersbarNamesFontColor: #FFFFFF;
+/*  	ownersbarNamesFontStyle: 1; */
+/*  	ownersbarNamesFontSize: 11.0f; */
+/*  	slotHeaderFontname: Tahoma; */
+/*  	slotHeaderFontcolor: #000000; */
+/*  	slotHeaderFontsize: 9; */
+}
+
 "PopupItem"{
 		[Enabled].background:#FFFFFF01;
         [Disabled].background:#FFFFFF01;
@@ -651,10 +793,13 @@ TextArea{
 		[Disabled].textForeground:#637a88;
 		[Focused].textForeground:#FFFFFF;
 		[Selected].textForeground:#FFFFFF;
+		[Required].textForeground:#FFFFFF;
 		
 		[Enabled].background:#FFFFFF;
 		[Disabled].background:#FFFFFF6D;
 		[Focused].background:#FFFFFF;
+		[Required].background:#aaaaaa;/*#c8e1ec;*/
+		
 		[Enabled].border:#D2D4D5;
 		[Disabled].border:#C4CED46D;
 		[Focused].border:#666666FF #666666B3 #66666666 #66666619;
@@ -667,6 +812,7 @@ TextField{
         [Disabled].textForeground:#637a88;
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
+        [Required].textForeground:#FFFFFF;
                 
         [Enabled].background:#FFFFFF;
         [Disabled].background:#6b6b6b1B;
