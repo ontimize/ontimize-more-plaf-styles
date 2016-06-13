@@ -89,24 +89,31 @@ ComboBox{
 	font:Tahoma-PLAIN-11;
 
 	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
-        [Enabled].background:#FFFFFF; /* WHITE */
-        [Enabled].border:#f1e8d6; /* BLUE ALMOST LIGHT */
-        
-        [Disabled].textForeground:#203740; /* BLUE DARK */
-        [Disabled].background:#6060601B; /* GREY DARK */
-        [Disabled].border:#f6d8ae6D; /* BLUE MIDLIGHT */
-        
-        [Focused].textForeground:#FFFFFF; /* WHITE */
-        
-        [Selected].textForeground:#FFFFFF; /* WHITE */
-        
-        [Focused].background:#FFFFFF; /* WHITE */
-        [Focused+MouseOver].background:#FFFFFF; /* WHITE */
-        [Focused+Pressed].background:#FFFFFF; /* WHITE */
-        [Focused].border:#d1a966FF #d1a966B3 #d1a96666 #d1a96619; /* ORANGE LIGHT */
+    [Enabled].background:#FFFFFF; /* WHITE */
+    [Enabled].border:#f1e8d6; /* BLUE ALMOST LIGHT */
+    
+    [Disabled].textForeground:#203740; /* BLUE DARK */
+    [Disabled].background:#6060601B; /* GREY DARK */
+    [Disabled].border:#f6d8ae6D; /* BLUE MIDLIGHT */
+    
+    [Disabled+Required].textForeground:#203740; /* BLUE BLACK */
+	[Disabled+Required].background:#6060601B; /* GREY DARK */
+	[Disabled+Required].border:#f6d8ae6D; /* BLUE MIDLIGHT */
+    
+    [Focused].textForeground:#FFFFFF; /* WHITE */
+    
+    [Selected].textForeground:#FFFFFF; /* WHITE */
+    
+    [Focused].background:#FFFFFF; /* WHITE */
+    [Focused+MouseOver].background:#FFFFFF; /* WHITE */
+    [Focused+Pressed].background:#FFFFFF; /* WHITE */
+    [Focused].border:#d1a966FF #d1a966B3 #d1a96666 #d1a96619; /* ORANGE LIGHT */
 
-        [MouseOver].background:#FFFFFF; /* WHITE */
-        [Pressed].background:#FFFFFF; /* WHITE */
+    [MouseOver].background:#FFFFFF; /* WHITE */
+    [Pressed].background:#FFFFFF; /* WHITE */
+    
+    [Required].textForeground:#203740; /* BLUE BLACK */
+	[Required].background:#f5edd4; /* ORANGE COLD*/
 
 }
 
@@ -133,9 +140,10 @@ ComboBox:"ComboBox.arrowButton"{
 	[Enabled].foreground:#FFFFFF; /* WHITE */
 	[Enabled].background:#c49153; /* BLUE MIDDARK */
 
-	[Disabled].foreground:#FFFFFF; /* WHITE */
-	[Disabled].background:#c49153;  /* BLUE MIDDARK */
-
+	[Disabled].foreground:#FFFFFF7D; /* WHITE */
+	[Disabled].background:#c491537D;  /* BLUE MIDDARK */
+	[Disabled+Required].foreground:#FFFFFF7D; /* WHITE */
+	[Disabled+Required].background:#c491537D;  /* BLUE MIDDARK */
 
 	[MouseOver].foreground:#000000;  /* BLACK */
 	[MouseOver].background:#c49153;  /* BLUE MIDDARK */
@@ -147,6 +155,11 @@ ComboBox:"ComboBox.arrowButton"{
 	[Selected].background:#c49153;  /* BLUE MIDDARK */
 
 	[Focused].background:#c49153;  /* BLUE MIDDARK */
+	[Focused+Required].background:#c49153;
+	
+	[Required].foreground:#FFFFFF; /* BLUE BLACK */
+	[Required].background:#c49153; /* ORANGE COLD*/
+	
 	[Disabled+Editable].background:#c49153;  /* BLUE MIDDARK */
 	[Editable+Enabled].background:#c49153;  /* BLUE MIDDARK */
 	[Editable+MouseOver].background:#c49153;  /* BLUE MIDDARK */

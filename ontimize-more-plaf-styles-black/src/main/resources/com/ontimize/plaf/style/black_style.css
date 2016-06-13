@@ -94,14 +94,17 @@ ComboBox{
         [Disabled].textForeground:#637a88;
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
+        [Required].textForeground:#FFFFFF;
         
         [Enabled].background:#FFFFFF;
         [Disabled].background:#6b6b6b1B;
+        [Disabled+Required].background:#aaaaaa7D;
         [Focused].background:#FFFFFF;
         [Focused+MouseOver].background:#FFFFFF;
         [MouseOver].background:#FFFFFF;
         [Pressed].background:#FFFFFF;
         [Focused+Pressed].background:#FFFFFF;
+        [Required].background:#aaaaaa;
         
         [Enabled].border:#D2D4D5;;
         [Disabled].border:#C4CED46D;
@@ -120,22 +123,30 @@ ComboBox:"ComboBox.textField"{
 }
 
 ComboBox:"ComboBox.arrowButton"{
-		[Disabled].background:#888888;
+		[Disabled].background:#8888887D;
+		[Disabled+Required].background:#8888887D;
 		[Enabled].background:#888888;
 		[MouseOver].background:#888888;
 		[Pressed].background:#888888;
 		[Selected].background:#888888;
 		[Focused].background:#888888;
+		[Focused+Required].background:#888888;
+		[Required].background:#888888;
+		
 		[Disabled+Editable].background:#888888;
 		[Editable+Enabled].background:#888888;
 		[Editable+MouseOver].background:#888888;
 		[Editable+Pressed].background:#888888;
 		[Editable+Focused].background:#888888;
+		
 		[Enabled].foreground:#ffffff;
 		[MouseOver].foreground:#000000;
-		[Disabled].foreground:#ffffff;
+		[MouseOver+Required].foreground:#000000;
+		[Disabled].foreground:#ffffff7D;
+		[Disabled+Required].foreground:#ffffff7D;
 		[Pressed].foreground:#000000;
 		[Selected].foreground:#000000;
+		[Required].foreground:#ffffff;
 }
 
 Diagram{
@@ -810,18 +821,24 @@ TextField{
 		
         [Enabled].textForeground:#6b6b6b;
         [Disabled].textForeground:#637a88;
+        [Disabled+Required].textForeground:#637a88;
         [Focused].textForeground:#FFFFFF;
+        [Focused+Required].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
         [Required].textForeground:#FFFFFF;
                 
         [Enabled].background:#FFFFFF;
         [Disabled].background:#6b6b6b1B;
+        [Disabled+Required].background:#aaaaaa7D;
         [Focused].background:#FFFFFF;
+        [Focused+Required].background:#aaaaaa;
         [Required].background:#aaaaaa;/*#c8e1ec;*/
         
         [Enabled].border:#D2D4D5;
         [Disabled].border:#C4CED46D;
+        [Disabled+Required].border:#C4CED46D;
         [Focused].border:#666666FF #666666B3 #66666666 #66666619;/*#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;*/
+        
         /*[Focused].innerShadow:#CACACA;*/
 }
 

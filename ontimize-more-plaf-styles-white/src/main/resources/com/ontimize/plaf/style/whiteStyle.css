@@ -108,8 +108,11 @@ CollapsiblePanel{
 ComboBox{
         [Enabled].textForeground:#335971;
         [Disabled].textForeground:#243b4aCC;
+        [Disabled+Required].textForeground:#243b4aCC;
         [Focused].textForeground:#FFFFFF;
+        [Focused+Required].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
+        [Required].textForeground:#FFFFFF;
         
         [Enabled].background:#FFFFFF;
         [Disabled].background:#FFFFFF7D;
@@ -135,22 +138,30 @@ ComboBox:"ComboBox.textField"{
 }
 
 ComboBox:"ComboBox.arrowButton"{
-		[Disabled].background:#263945;
+		[Disabled].background:#2639457D;
+		[Disabled+Required].background:#2639457D;
 		[Enabled].background:#263945;
 		[MouseOver].background:#263945;
 		[Pressed].background:#263945;
 		[Selected].background:#263945;
 		[Focused].background:#263945;
+		[Focused+Required].background:#263945;
+		[Required].background:#263945;
+		
 		[Disabled+Editable].background:#263945;
 		[Editable+Enabled].background:#263945;
 		[Editable+MouseOver].background:#263945;
 		[Editable+Pressed].background:#263945;
 		[Editable+Focused].background:#263945;
+		
 		[Enabled].foreground:#ffffff;
 		[MouseOver].foreground:#000000;
-		[Disabled].foreground:#ffffff;
+		[MouseOver+Required].foreground:#000000;
+		[Disabled].foreground:#ffffff7D;
+		[Disabled+Required].foreground:#ffffff7D;
 		[Pressed].foreground:#000000;
 		[Selected].foreground:#000000;
+		[Required].foreground:#ffffff;
 }
 
 Diagram{
