@@ -11,7 +11,7 @@
 		<version>2.0.7-SNAPSHOT</version>
 	</parent>
 	<properties>
-		<ontimize-plaf-version-number>1.1.0</ontimize-plaf-version-number>
+		<ontimize-plaf-version-number>1.1.1</ontimize-plaf-version-number>
 	</properties>
 
 	<distributionManagement>
