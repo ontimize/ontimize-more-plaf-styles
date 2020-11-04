@@ -730,7 +730,7 @@ TableHeader:"VisualCalendar:TableHeader.renderer"{
 
 TextArea{
 		[Enabled].textForeground:#335971;
-		[Disabled].textForeground:#FFFFFF;
+		[Disabled].textForeground:#243B4ACC;
 		[Focused].textForeground:#FFFFFF;
 		[Selected].textForeground:#FFFFFF;
 		[Required].textForeground:#FFFFFF;
@@ -747,7 +747,7 @@ TextArea{
     
 TextField{
         [Enabled].textForeground:#335971;
-        [Disabled].textForeground:#243b4aCC; /*old value  8F9CA4*/
+        [Disabled].textForeground:#243B4ACC; /*old value  8F9CA4*/
         [Focused].textForeground:#FFFFFF;
         [Selected].textForeground:#FFFFFF;
         [Required].textForeground:#FFFFFF;
