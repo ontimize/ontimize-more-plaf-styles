@@ -271,12 +271,12 @@ Label{
 }
 
 "FormHeaderButton"{
-	textForeground:#304550; /* BLUE DARKEST */
-	/*[Disabled].textForeground:#304550; /* BLUE DARKEST */
-	[Disabled].textForeground:#FFFFFF; /* BLUE DARKEST */
-	[Enabled].textForeground:#FFFFFF; /* BLUE DARKEST */
-		
-	[Focused].background:#304550; /* ORANGE COLD LIGHT */
+	textForeground:#FFFFFF; 
+    [Disabled].textForeground:#FFFFFF7F; 
+	[MouseOver].textForeground:#1575A7;
+	[Disabled].background:#FFFFFF01;
+	[Enabled].background:#FFFFFF01; 
+	[MouseOver].background:#304550; 
 	[Focused].alphaTransparency:0.5;
 }
 
@@ -332,12 +332,10 @@ MenuBar:Menu{
 }
 
 MenuItem{
-        [Enabled].textForeground:#FFFFFF; /* WHITE */
-	[Enabled].background:#FFFFFF01; /* WHITE */
-        
-        [Disabled].textForeground:#FFFFFF7F; /* WHITE */
+    [Enabled].textForeground:#FFFFFF; /* WHITE */
+	[Enabled].background:#FFFFFF01; /* WHITE */   
+    [Disabled].textForeground:#FFFFFF7F; /* WHITE */
 	[Disabled].background:#FFFFFF01; /* WHITE */
-        
 	[MouseOver].textForeground:#1575A7; /* BLUE DARK */
 	[MouseOver].background:#FFFFFF; /* WHITE */
 }

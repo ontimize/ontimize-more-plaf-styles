@@ -231,12 +231,14 @@ FileChooser{
 }
 
 "FormHeaderButton"{
-/*		font:;*/
-		textForeground:#335971;
-		[Disabled].textForeground:#243b4aCC;
-		
-		[Focused].background:#366581;
-		[Focused].alphaTransparency:0.5;
+        textForeground:#FFFFFF;
+        [Enabled].textForeground:#FFFFFF;
+		[Disabled].textForeground:#FFFFFF7F;
+		[MouseOver].textForeground:#6b6b6b;
+		[Enabled].background:#FFFFFF01;
+        [Disabled].background:#FFFFFF01;
+        [MouseOver].background:#FFFFFF;
+}
 }
 
 "FormTitle"{

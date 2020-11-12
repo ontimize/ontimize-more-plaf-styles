@@ -219,15 +219,12 @@ Label{
 }
 
 "FormHeaderButton"{
-		textForeground:#FFFFFF;
-		[Disabled].textForeground:#637a88;
-		
-	[Focused].background : #ffffff;
-	[Focused].alphaTransparency : 0.5;
-	[MouseOver].background : #ffffff;
-	[MouseOver].alphaTransparency : 0.5;
-	[Focused+MouseOver].background : #ffffff;
-	[Focused+MouseOver].alphaTransparency : 0.5;
+	textForeground:#FFFFFF;
+	[Disabled].textForeground:#FFFFFF7F;
+	[MouseOver].textForeground:#6b6b6b;
+	[Enabled].background:#FFFFFF01;
+    [Disabled].background:#FFFFFF01;
+    [MouseOver].background:#FFFFFF;
 }
 
 "FormTitle"{
@@ -280,12 +277,12 @@ MenuBar:Menu{
 }
 
 MenuItem{
+        textForeground:#FFFFFF;
+		[Disabled].textForeground:#FFFFFF7F;
+		[MouseOver].textForeground:#6b6b6b;
 		[Enabled].background:#FFFFFF01;
         [Disabled].background:#FFFFFF01;
         [MouseOver].background:#FFFFFF;
-        [Enabled].textForeground:#FFFFFF;
-		[Disabled].textForeground:#FFFFFF7F;
-		[MouseOver].textForeground:#6b6b6b;
 }
 
 MenuItem:MenuItemAccelerator{
