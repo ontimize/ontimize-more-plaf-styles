@@ -11,7 +11,7 @@
 		<version>2.0.6</version>
 	</parent>
 	<properties>
-		<ontimize-plaf-version-number>1.1.2</ontimize-plaf-version-number>
+		<ontimize-plaf-version-number>1.1.5</ontimize-plaf-version-number>
 	</properties>
 
 	<distributionManagement>
