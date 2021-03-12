@@ -142,6 +142,7 @@ ComboBox{
         [Focused].textForeground:#FFFFFF; /* WHITE */
         
         [Selected].textForeground:#FFFFFF; /* WHITE */
+        [Required].background:#fae080;
         
         [Focused].background:#FFFFFF; /* WHITE */
         [Focused+MouseOver].background:#FFFFFF; /* WHITE */
@@ -197,6 +198,14 @@ ComboBox:"ComboBox.arrowButton"{
 	[Editable+Focused].background:#539DC4;  /* BLUE MIDDARK */
 }
 
+
+
+ComboBox:"ComboBox.listRenderer"{
+    [Required].textForeground:#0A0A0A;
+    [Disabled+Required].textForeground:#243b4aCC;
+    [Selected].textForeground:#ffffff;
+    [Selected].background:#FAE080;
+}
 
 
 /* READY ??? */
@@ -930,6 +939,82 @@ TextArea{
     
 
 TextField{
+	font:Tahoma-PLAIN-11;
+		
+	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
+	[Enabled].background:#FFFFFF; /* WHITE */
+	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
+        
+	[Disabled].textForeground:#203740; /* BLUE BLACK */
+	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
+        
+	[Focused].textForeground:#FFFFFF; /* WHITE */
+	[Focused].background:#FFFFFF; /* WHITE */
+    [Focused].border:#EECC80FF #EECC80B3 #EECC8066 #EECC8019; /* ORANGE LIGHT */
+
+	/*[Focused].innerShadow:#CACACA;*/
+
+	[Selected].textForeground:#FFFFFF; /* WHITE */
+                
+	[Required].textForeground:#203740; /* BLUE BLACK */
+	[Required].background:#FAE080; /* ORANGE COLD*/
+	
+	
+}
+
+
+TextField{
+	font:Tahoma-PLAIN-11;
+		
+	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
+	[Enabled].background:#FFFFFF; /* WHITE */
+	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
+        
+	[Disabled].textForeground:#203740; /* BLUE BLACK */
+	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
+        
+	[Focused].textForeground:#FFFFFF; /* WHITE */
+	[Focused].background:#FFFFFF; /* WHITE */
+    [Focused].border:#EECC80FF #EECC80B3 #EECC8066 #EECC8019; /* ORANGE LIGHT */
+
+	/*[Focused].innerShadow:#CACACA;*/
+
+	[Selected].textForeground:#FFFFFF; /* WHITE */
+                
+	[Required].textForeground:#203740; /* BLUE BLACK */
+	[Required].background:#FAE080; /* ORANGE COLD*/
+	
+	
+}
+
+TextField:"TextField.ReferenceExt"{
+	font:Tahoma-PLAIN-11;
+		
+	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
+	[Enabled].background:#FFFFFF; /* WHITE */
+	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
+        
+	[Disabled].textForeground:#203740; /* BLUE BLACK */
+	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
+        
+	[Focused].textForeground:#FFFFFF; /* WHITE */
+	[Focused].background:#FFFFFF; /* WHITE */
+    [Focused].border:#EECC80FF #EECC80B3 #EECC8066 #EECC8019; /* ORANGE LIGHT */
+
+	/*[Focused].innerShadow:#CACACA;*/
+
+	[Selected].textForeground:#FFFFFF; /* WHITE */
+                
+	[Required].textForeground:#203740; /* BLUE BLACK */
+	[Required].background:#FAE080; /* ORANGE COLD*/
+	
+	
+}
+
+TextField:"TextField.ReferenceExtCode"{
 	font:Tahoma-PLAIN-11;
 		
 	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */

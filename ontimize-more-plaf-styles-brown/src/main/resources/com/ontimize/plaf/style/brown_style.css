@@ -167,6 +167,12 @@ ComboBox:"ComboBox.arrowButton"{
 	[Editable+Focused].background:#c49153;  /* BLUE MIDDARK */
 }
 
+ComboBox:"ComboBox.listRenderer"{
+    [Required].textForeground:#0A0A0A;
+    [Disabled+Required].textForeground:#243b4aCC;
+    [Selected].textForeground:#ffffff;
+    [Selected].background:#36627F;
+}
 
 
 /* READY ??? */

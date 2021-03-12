@@ -775,21 +775,21 @@ TextField{
 
 TextField:"TextField.ReferenceExt"{
          [Enabled].textForeground:#335971;
-         [Disabled].textForeground:#FFFFFF; /*old value  8F9CA4*/
+         [Disabled].textForeground:#243B4ACC;; /*old value  8F9CA4*/
          [Focused].textForeground:#FFFFFF;
          [Selected].textForeground:#FFFFFF;
          [Required].textForeground:#FFFFFF;
 
-                [Enabled].background:#FFFFFF;
-                [Disabled].background:#C4CED46D;
-                [Focused].background:#FFFFFF;
-                [Required].background:#89A5B9;
+         [Enabled].background:#FFFFFF;
+         [Disabled].background:#C4CED46D;
+         [Focused].background:#FFFFFF;
+         [Required].background:#89A5B9;
 
-                [Enabled].border:#E0EBF2;
-                [Disabled].border:#C4CED46D;
-                [Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
-                /*[Focused].innerShadow:#CACACA;*/
-                editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner */
+         [Enabled].border:#E0EBF2;
+         [Disabled].border:#C4CED46D;
+         [Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
+         /*[Focused].innerShadow:#CACACA;*/
+         editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner */
 }
 
 TextField:"TextField.ReferenceExtCode"{
