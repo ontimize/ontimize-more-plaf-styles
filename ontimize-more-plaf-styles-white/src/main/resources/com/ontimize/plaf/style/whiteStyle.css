@@ -164,6 +164,13 @@ ComboBox:"ComboBox.arrowButton"{
 		[Required].foreground:#ffffff;
 }
 
+ComboBox:"ComboBox.listRenderer"{
+    [Required].textForeground:#ffffff;
+    [Disabled+Required].textForeground:#243b4aCC;
+    [Selected].textForeground:#ffffff;
+    [Selected].background:#36627F;
+}
+
 Diagram{
 		background:#FFFFFF;
 		border:#adc0ce;
@@ -764,6 +771,45 @@ TextField{
         [Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
         /*[Focused].innerShadow:#CACACA;*/
         editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner */
+}
+
+TextField:"TextField.ReferenceExt"{
+         [Enabled].textForeground:#335971;
+         [Disabled].textForeground:#FFFFFF; /*old value  8F9CA4*/
+         [Focused].textForeground:#FFFFFF;
+         [Selected].textForeground:#FFFFFF;
+         [Required].textForeground:#FFFFFF;
+
+                [Enabled].background:#FFFFFF;
+                [Disabled].background:#C4CED46D;
+                [Focused].background:#FFFFFF;
+                [Required].background:#89A5B9;
+
+                [Enabled].border:#E0EBF2;
+                [Disabled].border:#C4CED46D;
+                [Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
+                /*[Focused].innerShadow:#CACACA;*/
+                editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner */
+}
+
+TextField:"TextField.ReferenceExtCode"{
+         [Enabled].textForeground:#335971;
+         [Disabled].textForeground:#FFFFFF; /*old value  8F9CA4*/
+         [Focused].textForeground:#FFFFFF;
+         [Selected].textForeground:#FFFFFF;
+         [Required].textForeground:#FFFFFF;
+
+         [Enabled].background:#FFFFFF;
+         [Disabled].background:#C4CED46D;
+         [Focused+Required].background:#89A5B9;
+         [Focused].background:#FFFFFF;
+         [Required].background:#89A5B9;
+
+         [Enabled].border:#E0EBF2;
+         [Disabled].border:#C4CED46D;
+         [Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
+         /*[Focused].innerShadow:#CACACA;*/
+         editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner */
 }
 
 Table:"Table.QuickFilter"{
