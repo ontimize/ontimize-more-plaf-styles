@@ -83,7 +83,7 @@ CheckBoxMenuItem{
 /* 	backgroundColor:#ffcc00; */
 /* 	arrowLeftIcon:com/ontimize/gui/images/previous2.png; */
 /* 	arrowRightIcon:com/ontimize/gui/images/next2.png; */
-	}
+}
 
 CollapsiblePanel{
 /*	  font:;*/
@@ -245,7 +245,6 @@ FileChooser{
 		[Enabled].background:#FFFFFF01;
         [Disabled].background:#FFFFFF01;
         [MouseOver].background:#FFFFFF;
-}
 }
 
 "FormTitle"{
