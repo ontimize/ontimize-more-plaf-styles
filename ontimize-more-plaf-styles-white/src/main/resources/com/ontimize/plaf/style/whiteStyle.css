@@ -1,9 +1,9 @@
 /*@import url('com/ontimize/plaf/style/whiteStyle.css');*/
 
-Application{
- 	font: Arial-PLAIN-11;
+/* Application{ */
+/* 	font: Arial-PLAIN-11;	 */
 /* 	radius: 5.5; */
- }
+/* } */
 
 Button{
 	 contentMargins:7 7 7 7;
@@ -83,7 +83,7 @@ CheckBoxMenuItem{
 /* 	backgroundColor:#ffcc00; */
 /* 	arrowLeftIcon:com/ontimize/gui/images/previous2.png; */
 /* 	arrowRightIcon:com/ontimize/gui/images/next2.png; */
-}
+	}
 
 CollapsiblePanel{
 /*	  font:;*/
@@ -246,6 +246,7 @@ FileChooser{
         [Disabled].background:#FFFFFF01;
         [MouseOver].background:#FFFFFF;
 }
+}
 
 "FormTitle"{
 /* 	    font:; */
@@ -274,7 +275,7 @@ Label{
 
 List{
 		contentMargins:0 0 0 0;
-		/*font:Arial-PLAIN-11;*/
+		font:Arial-PLAIN-11;
 		background:#ffffff;
 		textForeground:#1d1d1d;
 		[Selected].textForeground:#ffffff;
@@ -721,7 +722,7 @@ TableHeader{
 TableHeader:"TableHeader.renderer"{
 		contentMargins:5 5 5 5;
 		opaque:true;
-		/*font:Arial-PLAIN-12;*/
+		font:Arial-PLAIN-12;
 		textForeground:#647b8b;
 		backgroundDegraded:#aab7bf #e5edf0; /*top bottom*/
 		outsideRightBorder:#858d92;
