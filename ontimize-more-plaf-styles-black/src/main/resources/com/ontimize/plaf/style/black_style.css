@@ -1,5 +1,5 @@
 Application{ 
-	font: Verdana-PLAIN-11;	
+	/* font: Verdana-PLAIN-11; */
 	radius: 5.5;
 } 
 
@@ -30,7 +30,7 @@ Application{
 Button {
 	contentMargins:7 7 7 7;
 	background:#000000;
-	font:Verdana-BOLD-12;
+	/* font:Verdana-BOLD-12; */
 	textForeground:#FFFFFF;
 	[Disabled].textForeground:#646464;
 	[Default].alphaTransparency:0.1;
@@ -73,7 +73,7 @@ CheckBoxMenuItem{
 }
 
 CollapsiblePanel{
-	  font:VERDANA-BOLD-14;	  
+	  /* font:VERDANA-BOLD-14; */
 	  foreground:#a1a1a1;
 	  foregroundShadow:#f8f8f8;
 	  titleBackground:#e6e6e6;	
@@ -88,7 +88,7 @@ CollapsiblePanel{
 }
 
 ComboBox{
-/*         font:Verdana-PLAIN-11; */
+        /* font:Verdana-PLAIN-11; */
 		foreground:#6b6b6b;
         [Enabled].textForeground:#6b6b6b;
         [Disabled].textForeground:#637a88;
@@ -112,7 +112,7 @@ ComboBox{
 }
 
 ComboBox:"ComboBox.textField"{
-/* 	    font:Verdana-PLAIN-11; */
+	    /* font:Verdana-PLAIN-11; */
 		[Enabled].background:#FFFFFF;
         [Disabled].background:#6b6b6b1B;
         [Selected].background:#FFFFFF;
@@ -165,14 +165,14 @@ EditorPane{
 }	
 
 "ELabel"{
-/* 		font:Verdana-PLAIN-11; */
+		/* font:Verdana-PLAIN-11; */
 		[Enabled].textForeground:#333333;
 		[Disabled].textForeground:#637a88;
 		disabledText:#637a88; 
 }
 
 Label{
-/* 		font:Verdana-PLAIN-11; */
+		/* font:Verdana-PLAIN-11; */
 		foreground:#6b6b6b;
 		disabledText:#637a88;
 		
@@ -200,7 +200,7 @@ Label{
 }
 
 "FormButton"{
-/*		font:;*/
+		/* font:; */
 		textForeground:#FFFFFF;
 		[Disabled].textForeground:#637a88;
 		
@@ -242,7 +242,7 @@ Label{
 
 List{
 		contentMargins:0 0 0 0;
-/* 		font:Verdana-PLAIN-11; */
+		/* font:Verdana-PLAIN-11; */
 		background:#ffffff;
 /*		textForeground:#1d1d1d;*/
 		textForeground:#000000;
@@ -631,7 +631,7 @@ TabbedPane:TabbedPaneTab{
 		[Disabled].background:#d7d7d7;
 		[Disabled+Selected].background:#505050;
 		[Selected].background:#505050;
-		font:Verdana-BOLD-11;
+		/* font:Verdana-BOLD-11; */
 		[MouseOver+Selected].background:#505050;
 		[Pressed+Selected].background:#505050;
 		[Focused+Selected].background:#505050;
@@ -673,7 +673,7 @@ FormTabbedPane:TabbedPaneTab{
 		[Disabled].background:#d7d7d7;
 		[Disabled+Selected].background:#505050;
 		[Selected].background:#505050;
-		font:Verdana-BOLD-11;
+		/* font:Verdana-BOLD-11; */
 		[MouseOver+Selected].background:#505050;
 		[Pressed+Selected].background:#505050;
 		[Focused+Selected].background:#505050;
@@ -756,7 +756,7 @@ Table:"Table.sumCellRenderer"{
 
 "TableButton"{
 		contentMargins: 0 0 0 0;
-/*		font:;*/
+		/* font:; */
 		textForeground:#335971;
 		[Disabled].textForeground:#637a88;
 		
@@ -771,7 +771,7 @@ Table:"Table.sumCellRenderer"{
 }
 
 TableHeader{
-/* 		font:Verdana-PLAIN-11; */
+		/*  font:Verdana-PLAIN-11; */
 /* 		background:#00000000;		 */
 /* 		opaque: false; */
 		ascendingSortIconBackground:#80b721;
@@ -781,7 +781,7 @@ TableHeader{
 TableHeader:"TableHeader.renderer"{
 		contentMargins:5 5 5 5;
 		opaque:true;
-/* 		font:Verdana-PLAIN-11; */
+		/* font:Verdana-PLAIN-11; */
 		textForeground:#ffffff;
 		backgroundDegraded:#606060 #3C3C3C; /*top bottom*/
 		outsideRightBorder:#212121;
@@ -814,7 +814,7 @@ TextArea{
 }
     
 TextField{
-/* 		font:Verdana-PLAIN-11; */
+		/* font:Verdana-PLAIN-11; */
 		
         [Enabled].textForeground:#6b6b6b;
         [Disabled].textForeground:#637a88;
@@ -903,7 +903,7 @@ Table:"Table.QuickFilter"{
 
 ToggleButton{
 	 contentMargins:7 7 7 7;
-/*	 font:;*/
+	 /* font:;*/
 /*	 background:;*/
 	textForeground:#ffffff;
 	[Disabled].textForeground:#637a88;
@@ -964,7 +964,7 @@ ToolTip{
 }
 
 Tree{
-	font:Verdana-BOLD-11;
+	/* font:Verdana-BOLD-11; */
 		lineColor:  #C5D1DA;
 		lineSelectionColor: #090707;
 		selectionBackground: #090707cc;
@@ -975,7 +975,7 @@ Tree{
 }
 
 Tree:"Tree.cellRenderer"{
-		font:Verdana-BOLD-11;
+		/* font:Verdana-BOLD-11; */
 		textForeground: #FFFFFF;
 		rootForeground: #333333; 
 		rootSelectionForeground: #517286;  

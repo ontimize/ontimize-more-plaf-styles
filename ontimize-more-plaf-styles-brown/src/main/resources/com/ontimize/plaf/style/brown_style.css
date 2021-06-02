@@ -8,7 +8,7 @@ Application{
 Button {
 	contentMargins:5 5 5 5 ;
 	background:#f6d8ae;
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
 	textForeground:#203740; /* BLUE BLACK */
 
 	[Default].alphaTransparency:0.5;
@@ -86,7 +86,7 @@ CollapsiblePanel{
 
 ComboBox{
 
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
 
 	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
     [Enabled].background:#FFFFFF; /* WHITE */
@@ -121,7 +121,7 @@ ComboBox{
 
 ComboBox:"ComboBox.textField"{
 	
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
         
         [Enabled].textForeground:#606060; /* GREY DARK */
 	[Enabled].background:#FFFFFF; /* WHITE */
@@ -205,7 +205,7 @@ Label{
 
 
 "ELabel"{
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
 	foreground: #0A0A0A; /* GREY ALMOST BLACK */
 	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
 	[Disabled].textForeground:#0A0A0A; /* BLUE ALMOSTBLACK*/
@@ -213,9 +213,7 @@ Label{
 }
 
 "FieldButton"{
-/*		font:;*/
-	textForeground:#304550; /* BLUE DARKEST */
-	[Disabled].textForeground:#c49153; /* BLUE MIDDARK */		
+	/* font:; K */
 	[Focused].background : #304550;
 	[Focused].alphaTransparency : 0.25;
 	[MouseOver].background : #304550;
@@ -273,7 +271,7 @@ Label{
 
 List{
 		contentMargins:0 0 0 0;
-		font:Tahoma-PLAIN-11;
+		/* font:Tahoma-PLAIN-11; */
 		background:#FFFFFF; /* WHITE */
 		textForeground:#000000; /* BLACK */
 		[Selected].textForeground:#FFFFFF; /* WHITE */
@@ -661,7 +659,7 @@ TabbedPane:TabbedPaneContent{
 TabbedPane:TabbedPaneTab{
 
 	contentMargins:2 2 2 2;		
-	font:Tahoma-BOLD-11;
+	/* font:Tahoma-BOLD-11; */
 
 	/* text foreground */
 	[Enabled].textForeground:#000000; /* BLACK */
@@ -710,7 +708,7 @@ FormTabbedPane:TabbedPaneContent{
 
 FormTabbedPane:TabbedPaneTab{
 	contentMargins: 1 1 1 1;		
-	font:Tahoma-BOLD-11;
+	/* font:Tahoma-BOLD-11; */
 
 	[Enabled].textForeground:#000000; /* BLACK */
 	[Enabled].background:#F5F5F5; /* GREY ALMOST WHITE */
@@ -803,7 +801,7 @@ Table:"Table.cellRenderer"{
         
 
 Table:"Table.rowHeadCellRenderer"{
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
 	foreground:#304550; /* BLUE DARKEST */
         [Enabled].background:#f1e8d6; /* BLUE ALMOST LIGHT */
         border:#FFFFFF; /* WHITE */
@@ -921,7 +919,7 @@ TextArea{
     
 
 TextField{
-	font:Tahoma-PLAIN-11;
+	/* font:Tahoma-PLAIN-11; */
 		
 	[Enabled].textForeground:#0A0A0A; /* GREY ALMOST BLACK */
 	[Enabled].background:#FFFFFF; /* WHITE */

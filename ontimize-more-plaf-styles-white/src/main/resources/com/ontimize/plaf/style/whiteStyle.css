@@ -7,7 +7,7 @@
 
 Button{
 	 contentMargins:7 7 7 7;
-/*	 font:;*/
+	 /* font:;*/
 /*	 background:;*/
 	textForeground:#335971;
 	[Disabled].textForeground:#243b4aCC;
@@ -86,7 +86,7 @@ CheckBoxMenuItem{
 	}
 
 CollapsiblePanel{
-/*	  font:;*/
+	  /* font:;*/
 	  foreground:#e1e1e1;
 	  foregroundShadow:#22303a;
 	  titleBackground:#2a3c48;	
@@ -201,7 +201,7 @@ EditorPane{
 }
 
 "FieldButton"{
-/*		font:;*/
+		/* font:;*/
 		textForeground:#335971;
 		[Disabled].textForeground:#243b4aCC;
 		
@@ -223,7 +223,7 @@ FileChooser{
 }
 
 "FormButton"{
-/*		font:;*/
+		/* font:;*/
 		textForeground:#335971;
 		[Disabled].textForeground:#243b4aCC;
 		
@@ -249,7 +249,7 @@ FileChooser{
 }
 
 "FormTitle"{
-/* 	    font:; */
+	    /* font:; */
 		background:#EBF0F3;
 /* 		bgpaint:linear-gradient(); */
 		shadow:#b0bfc9;
@@ -275,7 +275,7 @@ Label{
 
 List{
 		contentMargins:0 0 0 0;
-		font:Arial-PLAIN-11;
+		/* font:Arial-PLAIN-11; */
 		background:#ffffff;
 		textForeground:#1d1d1d;
 		[Selected].textForeground:#ffffff;
@@ -600,7 +600,7 @@ SplitPane:SplitPaneDivider{
 TabbedPane{
 		contentMargins: 8 12 12 12;
 		opaque:false;
-/*		font:;	*/
+		/* font:;	*/
 /*		background:#517286;*/
 		[Enabled].border:#000000;
 		[Disabled].border:#000000;
@@ -652,7 +652,7 @@ Table{
 }
 
 Table:"Table.cellEditor"{
-/* 	   font:; */
+	   /* font:; */
        foreground:#31c7fc;
        [Enabled].textForeground:#31c7fc;
        [Selected].textForeground:#FFFFFF;
@@ -661,7 +661,7 @@ Table:"Table.cellEditor"{
 }
     
 Table:"Table.cellRenderer"{
-/* 	    font:; */
+	    /* font:; */
         foreground:#3A5F77;
         evenRowBackground:#a6bdcb;
         oddRowBackground:#b6cad6;
@@ -699,7 +699,7 @@ Table:"VisualCalendar:Table.cellRenderer"{
 
 "TableButton"{
 		contentMargins: 16 16 16 16;
-/*		font:;*/
+		/* font:;*/
 		textForeground:#335971;
 		[Disabled].textForeground:#243b4aCC;
 		
@@ -713,7 +713,7 @@ Table:"VisualCalendar:Table.cellRenderer"{
 }
 
 TableHeader{
-/* 		font:Arial-PLAIN-12; */
+		/* font:Arial-PLAIN-12; */
 		foregroundFilter:#2E8ECb;		
 		ascendingSortIconBackground:#80b721;
 		descendingSortIconBackground:#e64718;
@@ -722,7 +722,7 @@ TableHeader{
 TableHeader:"TableHeader.renderer"{
 		contentMargins:5 5 5 5;
 		opaque:true;
-		font:Arial-PLAIN-12;
+		/* font:Arial-PLAIN-12;*/
 		textForeground:#647b8b;
 		backgroundDegraded:#aab7bf #e5edf0; /*top bottom*/
 		outsideRightBorder:#858d92;
@@ -838,7 +838,7 @@ Table:"Table.QuickFilter"{
 
 ToggleButton{
 	 contentMargins:7 7 7 7;
-/*	 font:;*/
+	 /* font:;*/
 /*	 background:;*/
 	textForeground:#335971;
 	[Disabled].textForeground:#243b4aCC;
