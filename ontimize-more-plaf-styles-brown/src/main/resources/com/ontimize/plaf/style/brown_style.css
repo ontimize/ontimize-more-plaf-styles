@@ -226,7 +226,7 @@ FormTabbedPane:TabbedPaneContent{
 
 FormTabbedPane:TabbedPaneTab{
 	contentMargins: 1 1 1 1;
-	font:Tahoma-BOLD-11;
+/*	font:Tahoma-BOLD-11;*/
 
 	[Enabled].textForeground:#000000; /* BLACK */
 	[Enabled].background:#F5F5F5; /* GREY ALMOST WHITE */
@@ -672,7 +672,7 @@ TabbedPane:TabbedPaneContent{
 
 TabbedPane:TabbedPaneTab{
 	contentMargins:2 2 2 2;	
-	font:Tahoma-BOLD-11;
+/*	font:Tahoma-BOLD-11;*/
 
 	/* text foreground */
 	[Enabled].textForeground:#000000; /* BLACK */
@@ -744,7 +744,7 @@ Table:"Table.cellRenderer"{
 }
 
 Table:"Table.rowHeadCellRenderer"{
-	font:Tahoma-PLAIN-11;
+/*	font:Tahoma-PLAIN-11;*/
 	foreground:#304550; /* BLUE DARKEST */
 	[Enabled].background:#f1e8d6; /* BLUE ALMOST LIGHT */
 	border:#FFFFFF; /* WHITE */

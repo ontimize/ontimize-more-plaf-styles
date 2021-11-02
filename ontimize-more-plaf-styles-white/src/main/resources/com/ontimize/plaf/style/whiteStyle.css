@@ -88,7 +88,7 @@ CollapsiblePanel{
 /*	font:;*/
 	foreground:#e1e1e1;
 	foregroundShadow:#22303a;
-	titleBackground:#2a3c48;	
+	titleBackground:#2a3c48;
 	background:#eef4f6;
 	backgroundGradientInit:#dae8ec;
 	backgroundGradientEnd:#e3ecf0;
@@ -183,7 +183,7 @@ EditorPane{
 	[Enabled].background:#FFFFFF;
 	[Disabled].background:#C4CED46D;
 	[Selected].background:#FFFFFF;
-}	
+}
 
 "ELabel"{
 	foreground:#6387A0;
@@ -217,13 +217,13 @@ FileChooser{
 /*	font:;*/
 	textForeground:#335971;
 	[Disabled].textForeground:#243b4aCC;
-	
+
 	[Focused].background:#366581;
 	[Focused].alphaTransparency:0.5;
 }
 
 "FormButtonPanel"{
-	topBackgroundColor:#AAB8BF;	
+	topBackgroundColor:#AAB8BF;
 	bottomBackgroundColor:#E6EFF2;
 }
 
@@ -302,7 +302,7 @@ MenuBar:Menu{
 	[Enabled].textForeground:#B3CAd8;
 	[Disabled].textForeground:#B3CAd87D;
 	[Selected].textForeground:#1C304B;
-	
+
 	[Selected].background:#86adbf;
 	[Selected].border:#c6dfe3;
 }
@@ -387,7 +387,7 @@ Planning:DayPlanningComponent{
 Planning:WeekPlanningComponent{
 /*	ownersBarWidth: 60;*/
 /*	schedulerpanelBgcolor: #FFFFFF;*/
-	scrollPanelBgcolor: #EBF0F3;	
+	scrollPanelBgcolor: #EBF0F3;
 	defaultSlotBackgroundColor: #ABC7D8; 
 /*	defaultSlotBackgroundselectedColor: #E4EDF0;*/
 /*	defaultSlotBorderColor: #000000;*/
@@ -540,7 +540,7 @@ RadioButtonMenuItem{
 }
 
 ScrollBar{
-	contentMargins:6 6 6 6;	
+	contentMargins:6 6 6 6;
 	thumbHeight:12;
 	[Enabled].border:#FFFFFF;
 	[Disabled].border:#FFFFFF;
@@ -563,7 +563,7 @@ ScrollBar:ScrollBarThumb{
 	[Enabled].background:#36627F;
 	[MouseOver].background:#36627F;
 	[Pressed].background:#36627F;
-	[Enabled].backgroundShadow:#FFFFFF25;	
+	[Enabled].backgroundShadow:#FFFFFF25;
 	[MouseOver].backgroundShadow:#FFFFFF25;
 	[Pressed].backgroundShadow:#FFFFFF25;
 	[Enabled].border:#36627F;
@@ -573,7 +573,7 @@ ScrollBar:ScrollBarThumb{
 
 ScrollBar:ScrollBarTrack{
 	[Enabled].background:#E6E6E6;
-	[Disabled].background:#EEF1F4;	
+	[Disabled].background:#EEF1F4;
 }
 
 SplitPane{
@@ -589,7 +589,7 @@ SplitPane:SplitPaneDivider{
 	[Enabled].foreground:#AAAAAA7D;
 	[Enabled+Vertical].foreground:#AAAAAA7D;
 	[Enabled].foregroundBorder:#FFFFFF;
-	[Enabled+Vertical].foregroundBorder:#FFFFFF;		
+	[Enabled+Vertical].foregroundBorder:#FFFFFF;
 }
 
 TabbedPane{
@@ -623,7 +623,7 @@ TabbedPane:TabbedPaneTab{
 	[Pressed+Selected].background:#77acd0;
 	[Focused+Selected].background:#628ca9;
 	[Focused+MouseOver+Selected].background:#77acd0;
-	[Focused+Pressed+Selected].background:#77acd0;	
+	[Focused+Pressed+Selected].background:#77acd0;
 }
 
 TabbedPane:TabbedPaneTabArea:"TabbedPaneTabArea.button"{
@@ -667,17 +667,17 @@ Table:"Table.cellRenderer"{
 	[Selected+Editable].background:#F2F8F9;
 	[Selected].border:#2E8ECB;
 }
-	
+
 Table:"Table.QuickFilter"{
 	[Enabled].textForeground:#335971;
 	[Disabled].textForeground:#243b4aCC;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
-	
+
 	[Enabled].background:#FFFFFF;
 	[Disabled].background:#C4CED46D;
 	[Focused].background:#FFFFFF;
-	
+
 	[Enabled].border:#E0EBF2;
 	[Disabled].border:#C4CED46D;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
@@ -713,14 +713,14 @@ Table:"VisualCalendar:Table.cellRenderer"{
 /*	font:;*/
 	textForeground:#335971;
 	[Disabled].textForeground:#243b4aCC;
-	
+
 	[Focused].background:#366581;
 	[Focused].alphaTransparency:0.5;
 }
 
 "TableButtonPanel"{
 	topBackgroundColor:#DAE7ED;
-	bottomBackgroundColor:#A2ABB0;	
+	bottomBackgroundColor:#A2ABB0;
 }
 
 TableHeader{
@@ -743,7 +743,7 @@ TableHeader:"TableHeader.renderer"{
 
 TableHeader:"VisualCalendar:TableHeader.renderer"{
 	foreground:#FFFFFF;
-	foregroundShadow:#00000033;	
+	foregroundShadow:#00000033;
 	topBorder:#959ea3;
 	bottomBorder:#b6bdbf;
 }
@@ -754,12 +754,12 @@ TextArea{
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
-	
+
 	[Enabled].background:#FFFFFF;
 	[Disabled].background:#FFFFFF6D;
 	[Focused].background:#FFFFFF;
 	[Required].background:#89A5B9;
-	
+
 	[Enabled].border:#E0EBF2;
 	[Disabled].border:#C4CED46D;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
@@ -844,7 +844,7 @@ ToggleButton{
 	[Focused+MouseOver+Selected].alphaTransparency:0.5;
 	[Pressed+Selected].alphaTransparency:0.5;
 	[Focused+Pressed+Selected].alphaTransparency:0.5;
-	
+
 	[Disabled].alphaTransparency:0.5;
 	[Enabled].alphaTransparency:0.3;
 	[Focused].alphaTransparency:0.3;
@@ -870,7 +870,7 @@ ToolBar:Button{
 	textForeground:#FFFFFF;
 	size:32;
 /*	background:;*/
-	
+
 /*	[Disabled].alphaTransparency:1.0;*/
 /*	[Enabled].alphaTransparency:1.0;*/
 /*	[Focused].alphaTransparency:1.0;*/
@@ -884,7 +884,7 @@ ToolBar:ToggleButton{
 /*	background: ;*/
 /*	textForeground: ;*/
 /*	[Enabled].alphaTransparency:1.0;*/
-	
+
 /*	[Selected].alphaTransparency:1.0;*/
 /*	[Disabled+Selected].alphaTransparency:1.0;*/
 /*	[Focused+Selected].alphaTransparency:1.0;*/
@@ -902,7 +902,7 @@ ToolBarSeparator{
 ToolTip{
 	textForeground:#FFFFFF;
 	background:#86ADBF;
-	border:#C6DFE3;	
+	border:#C6DFE3;
 }
 
 Tree{
@@ -912,7 +912,7 @@ Tree{
 	selectionForeground: #E4EDF0;
 	textForeground: #94A4B0;
 	expandedIcon: com/ontimize/plaf/images/11x11_tree_open.png;
-	collapsedIcon: com/ontimize/plaf/images/11x11_tree_close.png;	
+	collapsedIcon: com/ontimize/plaf/images/11x11_tree_close.png;
 }
 
 Tree:"Tree.cellRenderer"{
