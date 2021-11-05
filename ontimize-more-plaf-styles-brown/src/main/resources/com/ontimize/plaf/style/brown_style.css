@@ -852,6 +852,7 @@ TextField{
 	/* [Focused].innerShadow:#CACACA;*/
 
 	[Selected].textForeground:#FFFFFF; /* WHITE */
+	[Focused+Required+Selected].textForeground:#FFFFFF; /* WHITE */
 
 	[Required].textForeground:#203740; /* BLUE BLACK */
 	[Required].background:#f5edd4; /* ORANGE COLD */
