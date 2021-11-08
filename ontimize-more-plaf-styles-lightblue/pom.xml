@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.ontimize</groupId>
     <artifactId>ontimize-more-plaf-styles</artifactId>
-    <version>1.4.9</version>
+    <version>1.4.10-SNAPSHOT</version>
   </parent>
   <artifactId>ontimize-more-plaf-styles-lightblue</artifactId>
   <name>ontimize-more-plaf-styles-lightblue</name>
