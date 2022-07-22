@@ -89,7 +89,7 @@ CollapsiblePanel{
 }
 
 "Column"{
-	background:#cbd7e020;
+	background:#f8fafb;
 	contentMargins:0 0 0 0;
 }
 
@@ -98,13 +98,14 @@ ComboBox{
 	foreground:#6b6b6b;
 	[Enabled].textForeground:#6b6b6b;
 	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
-	[Disabled+Required].background:#aaaaaa7D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Focused+MouseOver].background:#FFFFFF;
 	[MouseOver].background:#FFFFFF;
@@ -120,7 +121,7 @@ ComboBox{
 ComboBox:"ComboBox.textField"{
 /*	font:Verdana-PLAIN-11;*/
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Selected].background:#FFFFFF;
 
 	[Enabled].textForeground:#6b6b6b;
@@ -153,6 +154,14 @@ ComboBox:"ComboBox.arrowButton"{
 	[Pressed].foreground:#000000;
 	[Selected].foreground:#000000;
 	[Required].foreground:#ffffff;
+}
+
+ComboBox:"ComboBox.listRenderer"{
+	[Required].textForeground:#FFFFFF;
+	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
+	[Selected].textForeground:#FFFFFF;
+	[Selected].background:#FFFFFF;
 }
 
 Diagram{
@@ -581,7 +590,7 @@ RadioButtonMenuItem{
 
 
 "Row"{
-	background:#cbd7e051;
+	background:#f8fafb;
 	contentMargins:0 0 0 0;
 }
 
@@ -802,12 +811,14 @@ TableHeader:"VisualCalendar:TableHeader.renderer"{
 TextArea{
 	[Enabled].textForeground:#6b6b6b;
 	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#FFFFFF6D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 
@@ -828,8 +839,8 @@ TextField{
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
-	[Disabled+Required].background:#aaaaaa7D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Focused+Required].background:#aaaaaa;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
@@ -849,7 +860,7 @@ TextField:"TextField.ReferenceExt"{
 	[Selected].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 
@@ -865,7 +876,7 @@ TextField:"TextField.ReferenceExtCode"{
 	[Selected].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 

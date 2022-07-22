@@ -96,7 +96,7 @@ CollapsiblePanel{
 }
 
 "Column"{
-	background:#E7E9EE80; /* BLUE LIGHT + DD transp */
+	background:#dce8f2; /* BLUE LIGHT + DD transp */
 	contentMargins:2 0 2 0;
 }
 
@@ -108,8 +108,12 @@ ComboBox{
 	[Enabled].border:#E7E9EE; 
 
 	[Disabled].textForeground:#1575A7; /* BLUE DARK */
-	[Disabled].background:#FFFFFF7D; /* GREY DARK */
+	[Disabled].background:#d1dae2; /* GREY DARK */
 	[Disabled].border:#C6E0F5; /* BLUE MIDLIGHT */
+
+	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
+	[Disabled+Required].background:#eae3b8; /* GREY DARK */
+	[Disabled+Required].border:#C6E0F56D; /* BLUE MIDLIGHT */
 
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 
@@ -162,7 +166,8 @@ ComboBox:"ComboBox.arrowButton"{
 
 ComboBox:"ComboBox.listRenderer"{
 	[Required].textForeground:#0A0A0A;
-	[Disabled+Required].textForeground:#243b4aCC;
+	[Disabled].textForeground:#203740;
+	[Disabled+Required].textForeground:#203740;
 	[Selected].textForeground:#ffffff;
 	[Selected].background:#FAE080;
 }
@@ -598,7 +603,7 @@ RadioButtonMenuItem{
 
 
 "Row"{
-	background:#E7E9EE80; /* BLUE LIGHT + DD transp */
+	background:#dce8f2; /* BLUE LIGHT + DD transp */
 	contentMargins:2 0 2 0;
 }
 
@@ -837,16 +842,19 @@ TableHeader:"VisualCalendar:TableHeader.renderer"{
 
 TextArea{
 	[Enabled].textForeground:#203740; /* BLUE BLACK */
-	[Disabled].textForeground:#FFFFFF; /* WHITE */
+	[Disabled].textForeground:#203740; /* BLUE BLACK */
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	/*[Selected].textForeground:#FFFFFF; /* WHITE */
 	[Selected].textForeground:#000000; /* WHITE */
 	[Required].textForeground:#203740; /* BLUE BLACK */
+	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
 
 	[Enabled].background:#FFFFFF; /* WHITE */
-	[Disabled].background:#FFFFFF6D; /* WHITE */
+	[Disabled].background:#d1dae2; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */
 	[Required].background:#FAE080; /* ORANGE COLD*/
+	[Disabled+Required].background:#eae3b8; /* GREY DARK */
+
 
 	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT
 	[Disabled].border:#E7E9EE6D; /* BLUE ALMOST LIGHT 6D% TRANSP */
@@ -862,8 +870,12 @@ TextField{
 	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
 
 	[Disabled].textForeground:#203740; /* BLUE BLACK */
-	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].background:#d1dae2; /* GREY DARK */
 	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
+
+	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
+	[Disabled+Required].background:#eae3b8; /* GREY DARK */
+	[Disabled+Required].border:#C6E0F56D; /* BLUE MIDLIGHT */
 
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */
@@ -883,7 +895,7 @@ TextField:"TextField.ReferenceExt"{
 	[Enabled].background:#FFFFFF; /* WHITE */
 	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
 	[Disabled].textForeground:#203740; /* BLUE BLACK */
-	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].background:#d1dae2; /* GREY DARK */
 	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */
@@ -901,7 +913,7 @@ TextField:"TextField.ReferenceExtCode"{
 	[Enabled].background:#FFFFFF; /* WHITE */
 	[Enabled].border:#E7E9EE; /* BLUE ALMOST LIGHT */
 	[Disabled].textForeground:#203740; /* BLUE BLACK */
-	[Disabled].background:#6060601B; /* GREY DARK */
+	[Disabled].background:#d1dae2; /* GREY DARK */
 	[Disabled].border:#C6E0F56D; /* BLUE MIDLIGHT */
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */

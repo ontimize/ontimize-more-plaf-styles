@@ -63,7 +63,7 @@ CollapsiblePanel{
 }
 
 "Column"{
-	background:#f1e8d680; /* BLUE LIGHT + DD transp */
+	background:#f1e0c7; /* BLUE LIGHT + DD transp */
 	contentMargins:2 0 2 0;
 }
 
@@ -79,7 +79,7 @@ ComboBox{
 	[Disabled].border:#f6d8ae6D; /* BLUE MIDLIGHT */
 
 	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
-	[Disabled+Required].background:#6060601B; /* GREY DARK */
+	[Disabled+Required].background:#f4e7cc; /* GREY DARK */
 	[Disabled+Required].border:#f6d8ae6D; /* BLUE MIDLIGHT */
 
 	[Focused].textForeground:#FFFFFF; /* WHITE */
@@ -577,7 +577,7 @@ RadioButtonMenuItem{
 
 
 "Row"{
-	background:#f1e8d680; /* BLUE LIGHT + DD transp */
+	background:#f1e0c7; /* BLUE LIGHT + DD transp */
 	contentMargins:2 0 2 0;
 }
 
@@ -823,15 +823,18 @@ TextArea{
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#203740;
+	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
 
 	[Enabled].background:#FFFFFF;
 	[Disabled].background:#6060601B;
 	[Focused].background:#FFFFFF;
 	[Required].background:#f5edd4;
+	[Disabled+Required].background:#f4e7cc; /* GREY DARK */
 
 	[Enabled].border:#f1e8d6;
 	[Disabled].border:#f6d8ae6D;
 	[Focused].border:#d1a966FF #d1a966B3 #d1a96666 #d1a96619;
+	[Disabled+Required].border:#f6d8ae6D; /* BLUE MIDLIGHT */
 }
 
 TextField{
@@ -844,6 +847,10 @@ TextField{
 	[Disabled].textForeground:#203740; /* BLUE BLACK */
 	[Disabled].background:#6060601B; /* GREY DARK */
 	[Disabled].border:#f6d8ae6D; /* BLUE MIDLIGHT */
+
+	[Disabled+Required].textForeground:#203740; /* BLUE BLACK */
+	[Disabled+Required].background:#f4e7cc; /* GREY DARK */
+	[Disabled+Required].border:#f6d8ae6D; /* BLUE MIDLIGHT */
 
 	[Focused].textForeground:#FFFFFF; /* WHITE */
 	[Focused].background:#FFFFFF; /* WHITE */

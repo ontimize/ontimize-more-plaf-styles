@@ -99,7 +99,7 @@ CollapsiblePanel{
 }
 
 "Column"{
-	background:#cbd7e051;
+	background:#eef2f5;
 	contentMargins:0 0 0 0;
 /*	bgpaint:linear-gradient(to bottom, #689ad8 0%, #afc4d630 15%, #99999945 100%);*/
 }
@@ -114,7 +114,8 @@ ComboBox{
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#FFFFFF7D;
+	[Disabled].background:#dce3e7;
+	[Disabled+Required].background:#b7c7d3;
 	[Focused].background:#FFFFFF;
 	[Focused+MouseOver].background:#FFFFFF;
 	[MouseOver].background:#FFFFFF;
@@ -122,13 +123,13 @@ ComboBox{
 	[Focused+Pressed].background:#FFFFFF;
 
 	[Enabled].border:#E0EBF2;
-	[Disabled].border:#C4CED46D;
+	[Disabled].border:#dce3e7;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
 }
 
 ComboBox:"ComboBox.textField"{
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#FFFFFF7D;
+	[Disabled].background:#dce3e7;
 	[Selected].background:#FFFFFF;
 
 	[Enabled].textForeground:#335971;
@@ -535,7 +536,7 @@ RadioButtonMenuItem{
 }
 
 "Row"{
-	background:#cbd7e051;
+	background:#eef2f5;
 	contentMargins:0 0 0 0;
 }
 
@@ -751,34 +752,38 @@ TableHeader:"VisualCalendar:TableHeader.renderer"{
 TextArea{
 	[Enabled].textForeground:#335971;
 	[Disabled].textForeground:#243B4ACC;
+	[Disabled+Required].textForeground:#243b4aCC;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#FFFFFF6D;
+	[Disabled].background:#dce3e7;
+	[Disabled+Required].background:#b7c7d3;
 	[Focused].background:#FFFFFF;
 	[Required].background:#89A5B9;
 
 	[Enabled].border:#E0EBF2;
-	[Disabled].border:#C4CED46D;
+	[Disabled].border:#dce3e7;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
 }
 
 TextField{
 	[Enabled].textForeground:#335971;
 	[Disabled].textForeground:#243B4ACC; /*old value8F9CA4*/
+	[Disabled+Required].textForeground:#243b4aCC;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#C4CED46D;
+	[Disabled].background:#dce3e7;
+	[Disabled+Required].background:#b7c7d3;
 	[Focused].background:#FFFFFF;
 	[Required].background:#89A5B9;
 
 	[Enabled].border:#E0EBF2;
-	[Disabled].border:#C4CED46D;
+	[Disabled].border:#dce3e7;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
 	/*[Focused].innerShadow:#CACACA;*/
 	editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner*/
@@ -792,12 +797,12 @@ TextField:"TextField.ReferenceExt"{
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#C4CED46D;
+	[Disabled].background:#dce3e7;
 	[Focused].background:#FFFFFF;
 	[Required].background:#89A5B9;
 
 	[Enabled].border:#E0EBF2;
-	[Disabled].border:#C4CED46D;
+	[Disabled].border:#dce3e7;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
 	/*[Focused].innerShadow:#CACACA;*/
 	editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner*/
@@ -811,13 +816,13 @@ TextField:"TextField.ReferenceExtCode"{
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#C4CED46D;
+	[Disabled].background:#dce3e7;
 	[Focused+Required].background:#89A5B9;
 	[Focused].background:#FFFFFF;
 	[Required].background:#89A5B9;
 
 	[Enabled].border:#E0EBF2;
-	[Disabled].border:#C4CED46D;
+	[Disabled].border:#dce3e7;
 	[Focused].border:#61BEE8FF #61BEE8B3 #61BEE866 #61BEE819;
 	/*[Focused].innerShadow:#CACACA;*/
 	editorInnerBorder:#BAf1FE #F3FdFF; /*outer inner*/
