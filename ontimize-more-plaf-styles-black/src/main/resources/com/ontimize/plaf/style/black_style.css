@@ -89,7 +89,7 @@ CollapsiblePanel{
 }
 
 "Column"{
-	background:#cbd7e020;
+	background:#f8fafb;
 	contentMargins:0 0 0 0;
 }
 
@@ -98,13 +98,14 @@ ComboBox{
 	foreground:#6b6b6b;
 	[Enabled].textForeground:#6b6b6b;
 	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
-	[Disabled+Required].background:#aaaaaa7D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Focused+MouseOver].background:#FFFFFF;
 	[MouseOver].background:#FFFFFF;
@@ -112,7 +113,7 @@ ComboBox{
 	[Focused+Pressed].background:#FFFFFF;
 	[Required].background:#aaaaaa;
 
-	[Enabled].border:#D2D4D5;;
+	[Enabled].border:#D2D4D5;
 	[Disabled].border:#C4CED46D;
 	[Focused].border:#666666FF #666666B3 #66666666 #66666619;
 }
@@ -120,7 +121,7 @@ ComboBox{
 ComboBox:"ComboBox.textField"{
 /*	font:Verdana-PLAIN-11;*/
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Selected].background:#FFFFFF;
 
 	[Enabled].textForeground:#6b6b6b;
@@ -155,6 +156,14 @@ ComboBox:"ComboBox.arrowButton"{
 	[Required].foreground:#ffffff;
 }
 
+ComboBox:"ComboBox.listRenderer"{
+	[Required].textForeground:#FFFFFF;
+	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
+	[Selected].textForeground:#FFFFFF;
+	[Selected].background:#FFFFFF;
+}
+
 Diagram{
 	background:#FFFFFF;
 	border:#adc0ce;
@@ -174,7 +183,7 @@ EditorPane{
 /*	font:Verdana-PLAIN-11;*/
 	[Enabled].textForeground:#333333;
 	[Disabled].textForeground:#637a88;
-	disabledText:#637a88; 
+	disabledText:#637a88;
 }
 
 "FieldButton"{
@@ -391,7 +400,7 @@ Planning:TaskView{
 Planning:LCalendar{
 /*	componentBackground:#FFFFFF;*/
 /*	monthBorderColor:#000000;*/
-	monthHeaderBackground:#4D4D4D; 
+	monthHeaderBackground:#4D4D4D;
 	monthHeaderForeground:#FFFFFF;
 /*	monthWeekBackground:#FFFFFF;*/
 /*	monthWeekForeground:#000000;*/
@@ -407,7 +416,7 @@ Planning:DayPlanningComponent{
 /*	ownersBarWidth:50; 50*/
 /*	schedulerpanelBgcolor:#FFFFFF;*/
 	scrollPanelBgcolor:#EBF0F3;
-	defaultSlotBackgroundColor:#888888; 
+	defaultSlotBackgroundColor:#888888;
 	defaultSlotBackgroundselectedColor:#C0C2C3;
 /*	defaultSlotBorderColor:#000000;*/
 /*	defaultSlotSelectedBorderColor:#FF0000;*/
@@ -440,7 +449,7 @@ Planning:WeekPlanningComponent{
 /*	ownersBarWidth:60;*/
 /*	schedulerpanelBgcolor:#FFFFFF;*/
 	scrollPanelBgcolor:#EBF0F3;
-	defaultSlotBackgroundColor:#888888; 
+	defaultSlotBackgroundColor:#888888;
 	defaultSlotBackgroundselectedColor:#C0C2C3;
 /*	defaultSlotBorderColor:#000000;*/
 /*	defaultSlotSelectedBorderColor:#FF0000;*/
@@ -460,7 +469,7 @@ Planning:WeekPlanningComponent{
 	weekdaysbarFontColor:#FFFFFF;
 /*	weekdaysbarFontStyle:1;*/
 /*	weekdaysbarFontSize:12.0f;*/
-	ownersbarNamesBackgroundColor:#4D4D4D; 
+	ownersbarNamesBackgroundColor:#4D4D4D;
 	ownersbarNamesFontColor:#FFFFFF;
 /*	ownersbarNamesFontStyle:1;*/
 /*	ownersbarNamesFontSize:11.0f;*/
@@ -499,7 +508,7 @@ Planning:MonthPlanningComponent{
 /*	schedulerpanelVerticallinesColor:#000000;*/
 /*	schedulerpanelVerticallinesStroke:1.0f;*/
 	weekdaysbarBackgroundColor:#4D4D4D;
-	weekdaysbarBorderColor:#FFFFFF; 
+	weekdaysbarBorderColor:#FFFFFF;
 	weekdaysbarFontColor:#FFFFFF;
 /*	weekdaysbarFontStyle:1;*/
 /*	weekdaysbarFontSize:9.0f;*/
@@ -581,7 +590,7 @@ RadioButtonMenuItem{
 
 
 "Row"{
-	background:#cbd7e051;
+	background:#f8fafb;
 	contentMargins:0 0 0 0;
 }
 
@@ -802,12 +811,14 @@ TableHeader:"VisualCalendar:TableHeader.renderer"{
 TextArea{
 	[Enabled].textForeground:#6b6b6b;
 	[Disabled].textForeground:#637a88;
+	[Disabled+Required].textForeground:#637a88;
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#FFFFFF6D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 
@@ -828,8 +839,8 @@ TextField{
 	[Required].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
-	[Disabled+Required].background:#aaaaaa7D;
+	[Disabled].background:#e9ebeb;
+	[Disabled+Required].background:#d1d2d3;
 	[Focused].background:#FFFFFF;
 	[Focused+Required].background:#aaaaaa;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
@@ -849,7 +860,7 @@ TextField:"TextField.ReferenceExt"{
 	[Selected].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 
@@ -865,7 +876,7 @@ TextField:"TextField.ReferenceExtCode"{
 	[Selected].textForeground:#FFFFFF;
 
 	[Enabled].background:#FFFFFF;
-	[Disabled].background:#6b6b6b1B;
+	[Disabled].background:#e9ebeb;
 	[Focused].background:#FFFFFF;
 	[Required].background:#aaaaaa;/*#c8e1ec;*/
 
@@ -961,7 +972,7 @@ Tree{
 Tree:"Tree.cellRenderer"{
 /*	font:Verdana-BOLD-11;*/
 	textForeground:#FFFFFF;
-	rootForeground:#333333; 
+	rootForeground:#333333;
 	rootSelectionForeground:#517286;
 	background:#888888;
 	backgroundSelectionParent:#c0c2c3;
