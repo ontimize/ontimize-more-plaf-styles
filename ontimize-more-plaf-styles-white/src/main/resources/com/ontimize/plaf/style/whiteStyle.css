@@ -791,7 +791,7 @@ TextField{
 
 TextField:"TextField.ReferenceExt"{
 	[Enabled].textForeground:#335971;
-	[Disabled].textForeground:#243B4ACC;; /*old value8F9CA4*/
+	[Disabled].textForeground:#243B4ACC; /*old value8F9CA4*/
 	[Focused].textForeground:#FFFFFF;
 	[Selected].textForeground:#FFFFFF;
 	[Required].textForeground:#FFFFFF;
